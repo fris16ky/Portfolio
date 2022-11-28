@@ -1,0 +1,23 @@
+* {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.name {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.collegeInfo {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.wrapup {
+  padding: 0px;
+  margin: 0px;
+}
+
+.degree {
+  padding: 0px;
+  margin: 0px;
+}
