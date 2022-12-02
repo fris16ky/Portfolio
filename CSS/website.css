@@ -3,4 +3,46 @@
   text-align: center;
   background-color: lightblue;
   color: black;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #747880;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  background-color: #747880;
+  color: navy;
+  padding: 20px 20px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: crimson;
+  transition: 0.3s ease;
+}
+
+.info {
+  margin: 5px 5px;
+  padding: 5px 5px;
+}
+
+.intro {
+  margin: 6px;
 }
