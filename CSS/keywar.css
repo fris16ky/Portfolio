@@ -1,13 +1,9 @@
 * {
   font-family: "Times New Roman", Times, serif;
   text-align: center;
+  background-color: coral;
   margin: 0;
   padding: 0;
-}
-
-body {
-  overflow-y: hidden;
-  overflow-x: hidden;
 }
 
 ul {
@@ -15,7 +11,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #747880;
+  background-color: navy;
 }
 
 li {
@@ -24,8 +20,8 @@ li {
 
 li a {
   display: block;
-  background-color: #747880;
-  color: navy;
+  background-color: navy;
+  color: white;
   padding: 20px 20px;
   text-decoration: none;
 }
@@ -33,4 +29,15 @@ li a {
 li a:hover {
   background-color: crimson;
   transition: 0.3s ease;
+}
+
+.description {
+  margin: 6px 6px;
+  padding: 6px 6px;
+}
+
+.text {
+  margin: 8px;
+  color: navy;
+  font-size: 17px;
 }
