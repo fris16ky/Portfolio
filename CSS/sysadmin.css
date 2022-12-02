@@ -3,7 +3,7 @@
   text-align: center;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
 }
 
 ul {
@@ -79,7 +79,8 @@ li a:hover {
 }
 
 /* Black background color on hover, gives a little bit of transparency */
-.previous:hover .next:hover {
+.previous:hover,
+.next:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
