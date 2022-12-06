@@ -1,0 +1,55 @@
+* {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  background-color: lightblue;
+  color: black;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #747880;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  background-color: #747880;
+  color: navy;
+  padding: 20px 20px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: crimson;
+  transition: 0.3s ease;
+}
+
+.name {
+  float: left;
+}
+
+.name a {
+  color: gold;
+}
+
+.name a:hover {
+  background-color: navy;
+}
+
+.info {
+  margin: 5px 5px;
+  padding: 5px 5px;
+}
+
+.intro {
+  margin: 6px;
+}
