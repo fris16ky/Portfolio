@@ -1,8 +1,11 @@
 * {
   font-family: "Times New Roman", Times, serif;
-  text-align: center;
   margin: 0;
   padding: 0;
+}
+
+.ideas_temp {
+  text-align: center;
 }
 
 .navi {
@@ -44,6 +47,39 @@
 
 .navi .name a:hover {
   background-color: darkorchid;
+}
+
+/* About Me styling */
+
+.pic_with_links {
+  float: left;
+  margin-left: 344px;
+  text-align: center;
+  padding-right: 20px;
+}
+
+.aboutMeName {
+  margin-left: 20px;
+  padding-left: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+/* No matter what, the space between the pic and the text isn't changing. For now, just changing the padding for the image */
+
+.collegeInfo {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.wrapup {
+  padding: 0px;
+  margin: 0px;
+}
+
+.degree {
+  padding: 0px;
+  margin: 0px;
 }
 
 /* Projects Styling */

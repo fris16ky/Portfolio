@@ -1,12 +1,21 @@
 * {
   font-family: "Times New Roman", Times, serif;
+}
+
+.pic_with_links {
+  float: left;
+  margin-left: 344px;
   text-align: center;
+  padding-right: 20px;
 }
 
 .name {
-  font-size: 16px;
+  margin-left: 20px;
+  padding-left: 20px;
+  font-size: 18px;
   font-weight: bold;
 }
+/* No matter what, the space between the pic and the text isn't changing. For now, just changing the padding for the image */
 
 .collegeInfo {
   font-size: 15px;
