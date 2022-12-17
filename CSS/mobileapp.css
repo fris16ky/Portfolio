@@ -45,28 +45,3 @@
 .navi .name a:hover {
   background-color: darkorchid;
 }
-
-/* Projects Styling */
-
-.ProjectsContainer {
-  background-color: lightblue;
-  text-align: left;
-  /* ^This won't work. Unsure why atm. Maybe I'll need to manually make each part center that I want, instead of making 
-  EVERYTHING center. Then I can manually make this left*/
-}
-
-#website_preview {
-  margin-left: 30px;
-  padding: 0;
-}
-
-/*We want the image to darken a little when the user hovers over the pic. Unsure how to do it rn  */
-#website_preview:hover {
-  color: gray;
-}
-
-#web_description {
-  margin: 0;
-  padding: 0;
-  margin-left: 0px;
-}
