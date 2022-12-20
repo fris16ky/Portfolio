@@ -109,6 +109,9 @@
 
 .learnMore {
   border-color: violet;
-  background-color: yellow;
+  background-color: violet;
   margin-left: 20px;
+  border-width: 10px;
+  font-size: 15px;
+  color: yellow;
 }
