@@ -106,3 +106,9 @@
   padding: 0;
   margin-left: 0px;
 }
+
+.learnMore {
+  border-color: violet;
+  background-color: yellow;
+  margin-left: 20px;
+}
