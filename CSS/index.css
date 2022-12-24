@@ -119,3 +119,30 @@
   font-size: 15px;
   color: yellow;
 }
+
+/* Skills Styling */
+
+.SkillsContainer {
+  background-color: rgb(204, 204, 255);
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 10px;
+  color: black;
+  font-size: 13pt;
+}
+
+.row_one {
+  column-count: 3;
+  /* https://www.w3schools.com/css/css3_multiple_columns.asp for column info. Can set column-gap and such */
+  text-align: center;
+}
+
+.row_two {
+  column-count: 3;
+  text-align: center;
+}
+
+.row_three {
+  column-count: 2;
+  text-align: center;
+}
