@@ -1,3 +1,18 @@
 * {
   font-family: "Times New Roman", Times, serif;
 }
+
+.row_one {
+  column-count: 3;
+  text-align: center;
+}
+
+.row_two {
+  column-count: 2;
+  text-align: center;
+}
+
+.row_three {
+  column-count: 2;
+  text-align: center;
+}

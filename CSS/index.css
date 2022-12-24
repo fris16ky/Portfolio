@@ -51,6 +51,10 @@
 
 /* About Me styling */
 
+.AboutMeContainer {
+  background-color: rgb(211, 211, 211, 65%);
+}
+
 .pic_with_links {
   float: left;
   margin-left: 344px;
