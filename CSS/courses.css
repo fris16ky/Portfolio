@@ -1,3 +1,50 @@
-.WIP {
-  color: red;
+* {
+  font-family: "Times New Roman", Times, serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navi {
+  margin-bottom: 30px;
+}
+
+.navi ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: navy;
+}
+
+.navi li {
+  float: right;
+}
+
+.navi li a {
+  display: block;
+  background-color: navy;
+  color: white;
+  padding: 20px 20px;
+  text-decoration: none;
+}
+
+.navi li a:hover {
+  background-color: crimson;
+  transition: 0.3s ease;
+}
+
+.navi .name {
+  float: left;
+}
+
+.navi .name a {
+  color: gold;
+}
+
+.navi .name a:hover {
+  background-color: darkorchid;
+}
+
+.coursesContainer {
+  margin-left: 33px;
 }
