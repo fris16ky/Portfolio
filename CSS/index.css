@@ -102,7 +102,23 @@
 
 /*We want the image to darken a little when the user hovers over the pic. Unsure how to do it rn  */
 #website_preview:hover {
-  color: gray;
+  filter: brightness(40%);
+}
+
+#app_preview:hover {
+  filter: brightness(40%);
+}
+
+#keyb_preview:hover {
+  filter: brightness(40%);
+}
+
+#sql_preview:hover {
+  filter: brightness(40%);
+}
+
+#sys_preview:hover {
+  filter: brightness(40%);
 }
 
 #web_description {
