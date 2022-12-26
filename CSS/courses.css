@@ -45,6 +45,14 @@
   background-color: darkorchid;
 }
 
-.coursesContainer {
-  margin-left: 33px;
+.coursesContainer ul {
+  margin-left: 500px;
+}
+
+.coursesContainer ul li {
+  margin-bottom: 7px;
+}
+
+.WIP {
+  color: red;
 }
