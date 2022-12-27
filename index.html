@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="./CSS/index.css" />
   </head>
   <body>
+    <!-- Top bar navigation -->
     <nav class="navi">
       <ul>
         <li><a href="./Pages/relatedCourses.html">Important Coursework</a></li>
@@ -27,7 +28,9 @@
         <li><a href="#Projects">Projects</a></li>
         <li><a href="#AboutMe">About Me</a></li>
         <li><a href="./index.html">Home</a></li>
-        <!-- Eventually, aboutMe will be a # to the About Me portion of the index, Home will bring you to the top. -->
+        <!-- My name (top left) will also bring the user back home -->
+        <!-- May want to look into trying to have the navigation bar be absolute - so that you don't
+        have to scroll up to click it -->
         <li class="name">
           <a href="./index.html" title="Home">Logan Howard</a>
         </li>
@@ -70,6 +73,7 @@
       fast, but I am new to this.
     </p>
 
+    <!-- Beginning of the portfolio - information about myself. There'll be a container for each major part of the index page -->
     <div class="AboutMeContainer" id="AboutMe">
       <br /><br />
       <div class="pic_with_links">
@@ -79,7 +83,7 @@
           height="450px"
         />
         <br />
-        <!-- we want 2 bubbles or icons here for my important info - GitHub, LinkedIn -->
+        <!-- 2 bubbles/icons - GitHub, LinkedIn with a tab space in between them -->
         <a
           href="https://github.com/fris16ky"
           target="_blank"
@@ -97,6 +101,7 @@
         </a>
       </div>
 
+      <!-- Info to the right of the image -->
       <section class="info">
         <br /><br />
         <p class="aboutMeName">Logan Howard</p>
@@ -117,7 +122,6 @@
           My interests include software development, database management,
           statistics, and working with webpages.
         </p>
-        <!-- <p class="wrapup">Oakland University</p> -->
         <br />
         <p>
           <li class="degree">
@@ -132,7 +136,7 @@
     </div>
     <div class="ProjectsContainer" id="Projects">
       <br />
-      <h2 style="text-align: center; font-size: 25px">Projects</h2>
+      <h2 style="text-align: center; font-size: 25px; color: navy">Projects</h2>
       <!-- Maybe make the font of Projects cool, and prolly a little bigger, maybe dif color too -->
       <p style="text-align: center">
         This will be where all my of project information is held. We need images
@@ -156,6 +160,7 @@
       </p>
       <div class="project_beginning">
         <div class="first_project">
+          <!-- Website Project -->
           <a href="./Pages/Projects/csi3150Website.html">
             <img
               src="./Media/Images/website_preview.png"
@@ -173,10 +178,12 @@
           </p>
         </div>
         <br /><br />
+        <!-- Learn More button that takes the user to each project's respective and dedicated page -->
         <a href="./Pages/Projects/csi3150Website.html">
           <button class="learnMore">Learn More</button></a
         >
         <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+        <!-- To-Do List Mobile App Project -->
         <a href="./Pages/Projects/csi3150App.html">
           <img
             src="./Media/Images/app_preview.png"
@@ -195,7 +202,9 @@
           <button class="learnMore">Learn More</button></a
         >
         <br /><br /><br /><br /><br /><br /><br /><br /><br />
+        <!-- Second Column of 2 projects -->
         <div class="col2">
+          <!-- Keyboard Warriors (mobile app) Project -->
           <a href="./Pages/Projects/keyboardWarriors.html">
             <img
               src="./Media/Images/keyboardWarriorsLogo.png"
@@ -213,6 +222,7 @@
             <button class="learnMore">Learn More</button></a
           >
           <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+          <!-- Database/SQL Project -->
           <a href="./Pages/Projects/mySql.html">
             <img
               src="./Media/Images/mySql_preview.png"
@@ -231,6 +241,7 @@
         </div>
       </div>
       <div class="last_project">
+        <!-- Game Server Project -->
         <a href="./Pages/Projects/sysAdminProject.html">
           <img
             src="./Media/Images/garrysmod_preview.jpg"
@@ -266,11 +277,13 @@
     them) will all be combined in the index page. I'll probably have individual
     pages for my big projects, including the reports and maybe a demo? But
     skills, AboutMe, relatedCourses + will hopefully all be on one cohesive page
+    <!-- End of projects - now onto Skills (programming languages & experience) -->
     <div class="SkillsContainer" id="Skills">
       <h1 style="text-align: center; color: navy">Skills:</h1>
       <br />
       <div class="row">
         <div class="row_one">
+          <!-- Java Skill -->
           <span>
             <i class="fa-brands fa-java fa-3x" style="margin-bottom: 8px"></i>
           </span>
@@ -283,14 +296,7 @@
               >Android Studio Application</a
             >.
           </p>
-          <!-- <p>
-        I have close to 4 years of software development experience (maybe just
-        call it experience, since I wasn't developing anything) with Java. I
-        don't have anything to show for it though, no projects or anything. My
-        journey with Java began with AP Computer Science in 2018-2019, and a few
-        college courses built upon that knowledge, but I am not as familiar as I
-        am with other languages.
-      </p> -->
+          <!-- Python Skill -->
           <span
             ><i class="fa-brands fa-python fa-3x" style="margin-bottom: 8px"></i
           ></span>
@@ -299,11 +305,7 @@
             I began Python at the end of 2021, where my main experience came
             with designing and analyzing algorithms and dealing with runtime.
           </p>
-          <!-- <p>
-        I have a little over a year of software development experience with
-        Python. I was introduced and fell in love during my Design and Analysis
-        of Algorithms class. Here is one personal project I have: (pls)
-      </p> -->
+          <!-- HTML, CSS, JS Skill -->
           <span
             ><i class="fa-brands fa-html5 fa-3x" style="margin-bottom: 8px"></i
           ></span>
@@ -317,16 +319,11 @@
             along with other various web applications including a calculator and
             a quiz app. I also trialed with Node.js and tailwind CSS.
           </p>
-          <!-- <p>
-        HTML, CSS, JavaScript - I am pretty fresh in terms of experience; I took
-        my first class on it this year with CSI 3150. However, throughout my
-        learning, I developed a frontend website (a modified Google Calendar),
-        and with reactJS and reactNative I developed a mobile application akin
-        to Uber, but with only Tesla vehicles.
-      </p> -->
         </div>
         <br /><br />
         <div class="row_two">
+          <!-- Second row of 3 skills -->
+          <!-- React Native/Expo Skill -->
           <span
             ><i class="fa-brands fa-react fa-3x" style="margin-bottom: 8px"></i
           ></span>
@@ -339,7 +336,7 @@
             <a href="./Projects/csi3150App.html">mobile Expo Application</a>,
             which was made for Android devices.
           </p>
-          <!-- <p>I used these two when creating my mobile application (To-do list)</p> -->
+          <!-- GCP Skill -->
           <span
             ><i class="fa-brands fa-google fa-3x" style="margin-bottom: 8px"></i
           ></span>
@@ -352,16 +349,7 @@
             <a href="./Projects/sysAdminProject.html">multiplayer server</a> for
             the game Garry's Mod as our final project.
           </p>
-          <!-- <p>
-            I have a few years of experience working under C and Linux. For my
-            System Administration class we worked with the Google Cloud Platform
-            to write scripts and the like. For my group project in this class,
-            we switched to Ubuntu when creating a Multiplayer Server for a game
-            called Garry's Mod. Additionally, I joined Oakland University's SAE
-            (Society of Automotive Engineers) team, where I developed running
-            code for our 2023 racecar that performed at Events in *locations
-            here?*.
-          </p> -->
+          <!-- C# Skill -->
           <iconify-icon
             icon="simple-icons:csharp"
             style="margin-bottom: 8px; font-size: 3em"
@@ -380,6 +368,8 @@
         </div>
         <br /><br />
         <div class="row_three">
+          <!-- Third row, only 2 skills for now -->
+          <!-- MySQL Skill -->
           <span>
             <i
               class="fa-solid fa-database fa-3x"
@@ -394,6 +384,7 @@
             <a href="./Projects/mySql.html">the School system</a> and included
             3-5 points of data for each table.
           </p>
+          <!-- MATLAB Skill -->
           <span>
             <iconify-icon
               icon="file-icons:matlab"
