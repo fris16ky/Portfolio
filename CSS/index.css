@@ -104,6 +104,8 @@
   padding-top: 45px;
 }
 
+/* Setting each project image/anchor + description to display as a flexbox to fix an issue with 
+the href (deadzone) */
 .first_project {
   padding-top: 15px;
   display: flex;
@@ -114,6 +116,21 @@
   display: flex;
   flex-direction: row;
   /* I think the direction is row by default, but it's still beneficial to remind myself that it is a row. */
+}
+
+.third_project {
+  display: flex;
+  flex-direction: row;
+}
+
+.fourth_project {
+  display: flex;
+  flex-direction: row;
+}
+
+.fifth_project {
+  display: flex;
+  flex-direction: row;
 }
 
 /* These adjustments are for the Project Descriptions - not the Learn More buttons 
@@ -134,7 +151,7 @@ around the middle of each image */
 .keyb_desc {
   margin-top: 10px;
   position: relative;
-  top: 35px;
+  top: 36px;
 }
 
 .sql_desc {
@@ -154,6 +171,8 @@ around the middle of each image */
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  margin-top: -40px;
+  padding-left: 54px;
 }
 
 #website_preview {
