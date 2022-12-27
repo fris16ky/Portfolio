@@ -106,6 +106,14 @@
 
 .first_project {
   padding-top: 15px;
+  display: flex;
+  flex-direction: row;
+}
+
+.second_project {
+  display: flex;
+  flex-direction: row;
+  /* I think the direction is row by default, but it's still beneficial to remind myself that it is a row. */
 }
 
 /* These adjustments are for the Project Descriptions - not the Learn More buttons 
@@ -113,13 +121,13 @@ We are changing the positioning of the text to be relative, and moving it down t
 around the middle of each image */
 .web_desc {
   position: relative;
-  top: 56px;
+  top: 72px;
   margin-bottom: 23px;
 }
 
 .app_desc {
   position: relative;
-  top: 80px;
+  top: 95px;
   margin-bottom: 42px;
 }
 

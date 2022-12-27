@@ -177,31 +177,47 @@
             using a calendar system.
           </p>
         </div>
-        <br /><br />
         <!-- Learn More button that takes the user to each project's respective and dedicated page -->
-        <a href="./Pages/Projects/csi3150Website.html">
+        <a
+          href="./Pages/Projects/csi3150Website.html"
+          style="float: right; position: relative; bottom: 135px; right: 313px"
+        >
           <button class="learnMore">Learn More</button></a
         >
-        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+        <br /><br /><br /><br />
         <!-- To-Do List Mobile App Project -->
-        <a href="./Pages/Projects/csi3150App.html">
-          <img
-            src="./Media/Images/app_preview.png"
-            height="250px"
-            width="330px"
-            title="App Project"
-            style="float: left; margin-left: 60px"
-            id="app_preview"
-          />
-        </a>
-        <p class="app_desc">
-          React-Native mobile application that keeps track of set reminders.
-        </p>
+        <div class="second_project">
+          <!-- These divs are to contain each project, mainly to make them flex boxes. Without the display being flex, 
+          I had issues where the text area extended through the image (not visually), making a dead spot in the anchor tagged
+          image where you couldn't click on the image to view that project. Flex box fixes that, whilst also slightly complicating -->
+          <a href="./Pages/Projects/csi3150App.html">
+            <img
+              src="./Media/Images/app_preview.png"
+              height="250px"
+              width="330px"
+              title="App Project"
+              style="float: left; margin-left: 60px"
+              id="app_preview"
+            />
+          </a>
+          <p class="app_desc">
+            React-Native mobile application that keeps track of set reminders.
+          </p>
+        </div>
         <br /><br />
-        <a href="./Pages/Projects/csi3150App.html">
+        <!-- The LearnMore button is not a part of the flexbox since it puts the items in a row; we want the button to be 
+        unaffected and under the paragraph instead of to the side of it. So, we're making the position relative and moving it
+        back to its original spot -->
+        <a
+          href="./Pages/Projects/csi3150App.html"
+          style="float: right; position: relative; bottom: 172px; right: 348px"
+        >
           <button class="learnMore">Learn More</button></a
         >
-        <br /><br /><br /><br /><br /><br /><br /><br /><br />
+        <!-- 3 break lines, otherwise the Learn More button would be put in the second column -->
+        <br /><br /><br />
+
         <!-- Second Column of 2 projects -->
         <div class="col2">
           <!-- Keyboard Warriors (mobile app) Project -->
