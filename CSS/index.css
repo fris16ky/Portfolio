@@ -51,8 +51,9 @@
 
 /* About Me styling */
 
+/* Blending the colors of the current and next container/sections, hoping this looks more seamless and smoother */
 .AboutMeContainer {
-  background-color: rgb(211, 211, 211, 65%);
+  background-image: linear-gradient(rgb(211, 211, 211, 65%) 86%, lightblue);
 }
 
 .pic_with_links {
@@ -88,8 +89,10 @@
 
 /* Projects Styling */
 
+/* Blending the colors of the current and next container/sections, hoping this looks more seamless and smoother */
 .ProjectsContainer {
-  background-color: lightblue;
+  background-image: linear-gradient(lightblue 69%, rgb(204, 204, 255));
+  /* lightblue to  rgb(204, 204, 255)*/
   text-align: left;
   /* ^This won't work. Unsure why atm. Maybe I'll need to manually make each part center that I want, instead of making 
   EVERYTHING center. Then I can manually make this left*/
@@ -138,7 +141,7 @@ We are changing the positioning of the text to be relative, and moving it down t
 around the middle of each image */
 .web_desc {
   position: relative;
-  top: 72px;
+  top: 74px;
   margin-bottom: 23px;
 }
 
@@ -175,6 +178,7 @@ around the middle of each image */
   padding-left: 54px;
 }
 
+/* These are the images for each of the 5 projects */
 #website_preview {
   margin-left: 25px;
   margin-right: 8px;
@@ -198,7 +202,7 @@ around the middle of each image */
   margin-right: 8px;
 }
 
-/* Darkening the image when hovered to aid user experience */
+/* Darkening the image when hovered to tell when the user can click on the href */
 #website_preview:hover {
   filter: brightness(40%);
 }
@@ -243,7 +247,6 @@ around the middle of each image */
   background-color: rgb(204, 204, 255);
   padding-left: 10px;
   padding-right: 10px;
-  margin-top: 10px;
   color: black;
   font-size: 13pt;
 }
