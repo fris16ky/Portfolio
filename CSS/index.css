@@ -100,7 +100,7 @@
 }
 
 .col2 {
-  margin-top: 200px;
+  margin-top: 100px;
   padding-top: 45px;
 }
 
@@ -108,8 +108,40 @@
   padding-top: 15px;
 }
 
+/* These adjustments are for the Project Descriptions - not the Learn More buttons 
+We are changing the positioning of the text to be relative, and moving it down to
+around the middle of each image */
+.web_desc {
+  position: relative;
+  top: 56px;
+  margin-bottom: 23px;
+}
+
+.app_desc {
+  position: relative;
+  top: 80px;
+  margin-bottom: 42px;
+}
+
+.keyb_desc {
+  margin-top: 10px;
+  position: relative;
+  top: 35px;
+}
+
+.sql_desc {
+  position: relative;
+  top: 108px;
+  margin-bottom: 71px;
+}
+
+.sys_desc {
+  position: relative;
+  top: 75px;
+  margin-bottom: 35px;
+}
+
 .last_project {
-  text-align: center;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -127,6 +159,7 @@
 }
 
 #keyb_preview {
+  margin-top: 10px;
   margin-right: 8px;
 }
 
@@ -159,6 +192,7 @@
   filter: brightness(40%);
 }
 
+/* Learn More buttons for each Project */
 .learnMore {
   border-color: violet;
   background-color: violet;
@@ -166,6 +200,8 @@
   border-width: 10px;
   font-size: 15px;
   color: yellow;
+  position: relative;
+  top: 25px;
 }
 
 .learnMore:hover {
