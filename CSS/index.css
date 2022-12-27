@@ -95,12 +95,50 @@
   EVERYTHING center. Then I can manually make this left*/
 }
 
+.project_beginning {
+  column-count: 2;
+}
+
+.col2 {
+  margin-top: 200px;
+  padding-top: 45px;
+}
+
+.first_project {
+  padding-top: 15px;
+}
+
+.last_project {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 #website_preview {
-  margin-left: 30px;
+  margin-left: 25px;
+  margin-right: 8px;
   padding: 0;
 }
 
-/*We want the image to darken a little when the user hovers over the pic. Unsure how to do it rn  */
+#app_preview {
+  margin-right: 8px;
+}
+
+#keyb_preview {
+  margin-right: 8px;
+}
+
+#sql_preview {
+  margin-right: 8px;
+}
+
+#sys_preview {
+  margin-right: 8px;
+}
+
+/* Darkening the image when hovered to aid user experience */
 #website_preview:hover {
   filter: brightness(40%);
 }
@@ -121,19 +159,19 @@
   filter: brightness(40%);
 }
 
-#web_description {
-  margin: 0;
-  padding: 0;
-  margin-left: 0px;
-}
-
 .learnMore {
   border-color: violet;
   background-color: violet;
-  margin-left: 20px;
+  margin-left: 0px;
   border-width: 10px;
   font-size: 15px;
   color: yellow;
+}
+
+.learnMore:hover {
+  border-color: blue;
+  background-color: blue;
+  color: white;
 }
 
 /* Skills Styling */
