@@ -10,7 +10,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #747880;
+  background-color: navy;
 }
 
 li {
@@ -19,9 +19,9 @@ li {
 
 li a {
   display: block;
-  background-color: #747880;
-  color: navy;
-  padding: 20px 20px;
+  background-color: navy;
+  color: white;
+  padding: 25px 20px;
   text-decoration: none;
 }
 
@@ -39,5 +39,5 @@ li a:hover {
 }
 
 .name a:hover {
-  background-color: navy;
+  background-color: darkorchid;
 }
