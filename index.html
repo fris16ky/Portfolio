@@ -18,6 +18,9 @@
     <!-- CSS links (need to style this: https://github.com/martysen/portfolio_site) 
       great ideas here (and other places throughout the interwebs!) -->
     <link rel="stylesheet" href="./CSS/index.css" />
+
+    <!-- JS -->
+    <script src="JS/index.js" defer></script>
   </head>
   <body>
     <!-- Top bar navigation -->
@@ -36,42 +39,7 @@
         </li>
       </ul>
     </nav>
-    <div class="ideas_temp">
-      <ul>
-        <li>
-          ***MAIN*** one website that I saw,
-          <a href="http://www.ericwadkins.com/" target="_blank"
-            >http://www.ericwadkins.com/</a
-          >
-          is REALLY nice, and keeps his portfolio very precise. It's all one on
-          page, with the Navigation tools dragging you down to each section.
-          i.e. Projects, Skills, About Me, etc. I'd have to learn the style by
-          hand, but it seems to be the most inviting of the few ones I've looked
-          at so far. It's a shit ton of code, but I did find his GitHub page for
-          it. Definitely DEFINITELY look into and try to copy/adapt his vision.
-        </li>
-        <li>
-          From
-          <a href="http://www.meganlandau.com/portfolio-1" target="_blank"
-            >http://www.meganlandau.com/portfolio-1</a
-          >
-          this page, I appreciate the "Major-related Coursework" page, I think
-          that'll help me a lot. Her design choices are very simplistic, and I
-          appreciate that. It's more realistic than the Eric Wadkins one, so
-          I'll merge the two I imagine. First problem is functionality, then we
-          move to making it look pretty! She does not have her code uploaded on
-          GitHub however. A little more tricky
-        </li>
-      </ul>
-    </div>
-
-    <br />
-    <h2 style="text-align: center">Important-ish</h2>
-    <p style="text-align: center">
-      Should I include an introduction here? Maybe a welcome to my webpage or
-      something? I feel like a straight jump into my About Me is a little too
-      fast, but I am new to this.
-    </p>
+    <br /><br /><br />
 
     <!-- Beginning of the portfolio - information about myself. There'll be a container for each major part of the index page -->
     <div class="AboutMeContainer" id="AboutMe">
@@ -128,7 +96,7 @@
             Bachelor of Science in Engineering and Computer Science
           </li>
           <li>Professional Track: System Administration</li>
-          <li>Graduating with Department Honors</li>
+          <li style="margin-bottom: 5px">Graduating with Department Honors</li>
         </p>
       </section>
       <!-- Separating the bottom of the About Me from the top of the Projects portion -->
@@ -139,24 +107,9 @@
       <h2 style="text-align: center; font-size: 25px; color: navy">Projects</h2>
       <!-- Maybe make the font of Projects cool, and prolly a little bigger, maybe dif color too -->
       <p style="text-align: center">
-        This will be where all my of project information is held. We need images
-        for each one, which when hovered will gray out a little.
-      </p>
-      <p style="text-align: center">
         ***For Keyboard Warriors, I'll need to take the screenshot from my
         Desktop since I don't want to bother with importing from GitHub to my
         laptop.
-      </p>
-      <p style="text-align: center; font-weight: bold">
-        Consider making this into a two-column project area. I don't think I'll
-        have too much to talk about, nor should I. Keep that for the project
-        page itself.
-      </p>
-      <p style="text-align: center">
-        Just realized this, but my paragraph tags extend through the images.
-        This means that there are deadzones in the images where you can't click
-        the href where the text lines up. Interesting, not sure if there's a
-        simple fix, but I'll have to research more.
       </p>
       <div class="project_beginning">
         <div class="first_project">
@@ -441,11 +394,12 @@
           </p>
         </div>
         <br />
-        <li>
+        <!-- <li>
           Add whatever I did for my Senior Capstone Project here, if need be.
           Will *probably* fit under one of the other categories, and will also
           be late for the first round of applications.
-        </li>
+        </li> -->
+        <br />
         <!-- Div for rows -->
       </div>
       <!-- Div for Skills Container -->
@@ -456,4 +410,63 @@
     Maybe a display like Create a Reminder -> when clicked, display my name, emails (OU and gmail), phone number
     ^^^GREAT IDEA -->
   </body>
+  <footer>
+    <div class="footerContainer">
+      <div class="footer">
+        <ul>
+          <li style="margin-top: 10px; margin-left: 25px; margin-right: 50px">
+            Copyright &copy; Logan Howard 2022
+          </li>
+          <li style="margin-top: 10px; margin-right: 80px">
+            <div class="contact_btn">
+              <button class="cntbtn">Contact Me</button>
+            </div>
+          </li>
+          <li style="margin-right: 80px; margin-top: 3px">
+            <a
+              href="https://www.linkedin.com/in/logan-howard-9a735b214/"
+              target="_blank"
+              title="LinkedIn"
+            >
+              <i class="fa-brands fa-linkedin-in fa-2x"></i
+            ></a>
+          </li>
+          <li style="margin-top: 3px">
+            <a
+              href="https://github.com/fris16ky"
+              target="_blank"
+              title="GitHub"
+            >
+              <i class="fa-brands fa-circle-thin fa-github fa-2x"></i
+            ></a>
+          </li>
+          <li style="float: right; margin-top: 10px; margin-right: 50px">
+            <a href="#AboutMe" style="text-decoration: none">About Me</a>
+          </li>
+        </ul>
+        <!-- Div end for footer -->
+      </div>
+      <!-- Div end for the footerContainer -->
+    </div>
+    <div id="contact_info" class="hide">
+      <!-- This will contain my contact information. This will be hidden by default, and will display
+      when the "Contact Me" button is pressed -->
+      <h2 style="color: white">Contact Me</h2>
+      <p style="font-size: 14pt">
+        Email:
+        <a href="mailto:hlogan235@gmail.com" style="color: gold"
+          >hlogan235@gmail.com</a
+        >
+        ||
+        <a href="mailto:loganhoward@oakland.edu" style="color: gold"
+          >loganhoward@oakland.edu</a
+        >
+      </p>
+      <p style="font-size: 14pt; margin-top: 5px">
+        Phone:
+        <a href="tel:+2486729878" style="color: gold">(248)-672-9878</a>
+      </p>
+      <br />
+    </div>
+  </footer>
 </html>

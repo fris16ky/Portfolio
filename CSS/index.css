@@ -4,13 +4,15 @@
   padding: 0;
 }
 
-.ideas_temp {
-  text-align: center;
-}
-
 .navi {
   margin-bottom: 30px;
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  z-index: 1;
 }
+/* Z-index pushes the navbar forward, meaning nothing can be displayed over it. 
+Without this, the Learn More buttons were displaying over it and blocking some of the content */
 
 .navi ul {
   list-style-type: none;
@@ -28,7 +30,7 @@
   display: block;
   background-color: navy;
   color: white;
-  padding: 20px 20px;
+  padding: 25px 20px;
   text-decoration: none;
 }
 
@@ -54,6 +56,7 @@
 /* Blending the colors of the current and next container/sections, hoping this looks more seamless and smoother */
 .AboutMeContainer {
   background-image: linear-gradient(rgb(211, 211, 211, 65%) 86%, lightblue);
+  margin-top: 5px;
 }
 
 .pic_with_links {
@@ -265,4 +268,54 @@ around the middle of each image */
 .row_three {
   column-count: 2;
   text-align: center;
+}
+
+.footerContainer {
+  margin: 0;
+  padding: 0;
+  background-color: navy;
+  font-size: 16pt;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.footer ul {
+  list-style-type: none;
+  overflow: hidden;
+  color: white;
+}
+
+.footer li {
+  float: left;
+  padding-left: 30px;
+}
+
+.cntbtn {
+  border: none;
+  outline: inherit;
+  background: none;
+  color: white;
+  font-size: 18pt;
+}
+
+.cntbtn:hover {
+  color: gold;
+}
+
+.footer li a {
+  color: white;
+}
+
+#contact_info {
+  text-align: center;
+  background-color: navy;
+  color: white;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
 }
