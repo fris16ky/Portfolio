@@ -1,7 +1,6 @@
 * {
   font-family: "Times New Roman", Times, serif;
   text-align: center;
-  background-color: rgb(255, 127, 80, 60%);
   margin: 0;
   padding: 0;
 }
@@ -43,13 +42,15 @@ li a:hover {
   background-color: darkorchid;
 }
 
-.description {
-  margin: 6px 6px;
-  padding: 6px 6px;
+/* Unique styling for the page */
+body {
+  background-image: linear-gradient(to right, yellow, rgb(255, 127, 80) 40%);
+  /* Attempt to match the background color to the Keyboard Warriors logo, unsure if it's too distracting */
 }
 
-.text {
+p {
+  font-weight: bold;
   margin: 8px;
   color: navy;
-  font-size: 17px;
+  font-size: 15pt;
 }
