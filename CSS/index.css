@@ -270,6 +270,7 @@ around the middle of each image */
   text-align: center;
 }
 
+/* Styling of the footer */
 .footerContainer {
   margin: 0;
   padding: 0;
@@ -279,6 +280,7 @@ around the middle of each image */
   padding-bottom: 20px;
 }
 
+/* Removing bullets and changing text color to white */
 .footer ul {
   list-style-type: none;
   overflow: hidden;
@@ -290,6 +292,7 @@ around the middle of each image */
   padding-left: 30px;
 }
 
+/* Styling the button - getting rid of the border and making it blend with the container colors */
 .cntbtn {
   border: none;
   outline: inherit;
@@ -306,16 +309,26 @@ around the middle of each image */
   color: white;
 }
 
+.footer a i:hover {
+  color: red;
+}
+
 #contact_info {
   text-align: center;
   background-color: navy;
   color: white;
 }
 
+/* For the Contact Info button, default is on hide (showing nothing) */
 .show {
   display: block;
 }
 
 .hide {
   display: none;
+}
+
+/* For the Resume and About Me parts of the footer */
+#hoverFooter:hover {
+  color: gold;
 }
