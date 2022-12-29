@@ -53,4 +53,9 @@ p {
   margin: 8px;
   color: navy;
   font-size: 15pt;
+  margin-left: 75px;
+  margin-right: 75px;
+  padding-right: 75px;
+  padding-left: 75px;
+  /* Adjusting how much screen the paragraph text takes up; there's probably a more efficient way to do this */
 }
