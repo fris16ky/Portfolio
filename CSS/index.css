@@ -302,7 +302,9 @@ around the middle of each image */
   font-size: 18pt;
 }
 
-.cntbtn:hover {
+/* Combining Contact Me and Resume + About Me hover turning the text color gold */
+.cntbtn:hover,
+#hoverFooter:hover {
   color: gold;
 }
 
@@ -327,9 +329,4 @@ around the middle of each image */
 
 .hide {
   display: none;
-}
-
-/* For the Resume and About Me parts of the footer */
-#hoverFooter:hover {
-  color: gold;
 }
