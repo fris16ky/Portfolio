@@ -164,6 +164,7 @@ around the middle of each image */
   position: relative;
   top: 108px;
   margin-bottom: 71px;
+  margin-right: 10px;
 }
 
 .sys_desc {
