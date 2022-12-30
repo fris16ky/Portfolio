@@ -43,14 +43,15 @@
 }
 
 .sqlContainer {
-  background-image: linear-gradient(to right, #00758f, #f29111);
+  background-image: linear-gradient(to right, white, maroon);
 }
 
 p {
-  color: white;
+  color: black;
+  font-weight: bold;
   font-size: 14pt;
 }
 
 h2 {
-  color: orange;
+  color: white;
 }
