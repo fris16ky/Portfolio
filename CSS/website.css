@@ -45,6 +45,10 @@ li a:hover {
   background-color: darkorchid;
 }
 
+h2 {
+  color: magenta;
+}
+
 .info {
   margin: 5px 5px;
   padding: 5px 5px;

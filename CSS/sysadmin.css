@@ -5,6 +5,10 @@
   padding: 0;
 }
 
+.navi {
+  margin-bottom: 10px;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -42,7 +46,7 @@ li a:hover {
   background-color: darkorchid;
 }
 
-.GmodContainer {
+body {
   background-color: rgb(17, 148, 240, 0.8);
 }
 /* Garry's Mod logo blue */
