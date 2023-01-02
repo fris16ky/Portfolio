@@ -14,6 +14,9 @@
     <!-- CSS -->
     <link rel="stylesheet" href="../../CSS/website.css" />
 
+    <!-- JS -->
+    <script src="../../JS/website.js" defer></script>
+
     <!-- Favicon -->
     <link rel="icon" href="../../Media/Images/L_favicon.png" type="image" />
   </head>
@@ -47,7 +50,7 @@
         including a flow diagram and estimation of effort.
       </p>
       <br />
-      <h2>Project Description</h2>
+      <h2 style="margin-bottom: 8px">Project Description</h2>
       <p>
         As a background, I have had two Google Pixel phones (2XL and 6), and
         love the Google Calendar features of setting and viewing reminders. Thus
@@ -55,20 +58,118 @@
         calendar-based website application.
       </p>
       <!-- Maybe talk more about how it's a website to be specific? Or maybe it's enough, unsure -->
+      <p style="margin-top: 10px">
+        To add my own twist, I incorporated my beloved childhood dog, Mia, into
+        my website. I created a 'Puppy Slideshow' to showcase my dog, my
+        friend's dog, and a few landscape pictures I've taken. Additionally, I
+        named the website after her, plus the webicon.
+      </p>
+      <img
+        src="../../Media/Images/slideshow.PNG"
+        width="750px"
+        title="Slideshow Example"
+        style="margin-top: 10px; margin-bottom: 10px"
+      />
+      <hr />
       <p>
         With this project starting in the fall, I limited the scope of the app
         to the remaining months of the year; October, November, and December.
         Within each month, you can navigate between months, navigate to other
         non-month pages, create a reminder, or delete reminders.
       </p>
-      <p>
-        To add my own twist, I incorporated my beloved childhood dog, Mia, into
-        my website. I created a 'Puppy Slideshow' to showcase my dog, my
-        friend's dog, and a few landscape pictures I've taken. Additionally, I
-        named the website after her, plus the webicon.
+      <p style="margin-top: 10px">
+        Here is an example of setting a reminder for Christmas. Below is the
+        base look of the calendar for December, followed by a slideshow
+        showcasing each Reminder option and the result.
       </p>
+      <img src="../../Media/Images/december.PNG" width="750px" />
+      <br /><br />
+      <p style="margin-bottom: 20px">
+        The following images contain what happens when you press the "Create a
+        Reminder", "Delete One Reminder", and "Delete All Reminders" buttons,
+        respectively. The fourth image is an example input, and the image that
+        follows is a zoomed-in output when the user clicks "Submit".
+      </p>
+      <div class="slideshow">
+        <img
+          class="web_slideshow"
+          src="../../Media/Images/create_reminder.PNG"
+          height="130px"
+          style="margin-left: auto; margin-right: auto"
+        />
+        <div
+          class="web-display-bottomleft web-container web-padding-16 web-black"
+          style="margin-top: -20px"
+          id="caption1"
+        >
+          Caption 1
+        </div>
+        <img
+          class="web_slideshow"
+          src="../../Media/Images/delete_one.PNG"
+          height="130px"
+          style="margin-left: auto; margin-right: auto"
+        />
+        <div
+          class="web-display-bottomleft web-container web-padding-16 web-black"
+          style="margin-top: -20px; display: none"
+          id="caption2"
+        >
+          Caption 2
+        </div>
+        <img
+          class="web_slideshow"
+          src="../../Media/Images/delete_all.PNG"
+          height="130px"
+          style="margin-left: auto; margin-right: auto"
+        />
+        <div
+          class="web-display-bottomleft web-container web-padding-16 web-black"
+          style="margin-top: -20px; display: none"
+          id="caption3"
+        >
+          Caption 3
+        </div>
+        <img
+          class="web_slideshow"
+          src="../../Media/Images/create_rem_Dec25.PNG"
+          height="130px"
+          style="margin-left: auto; margin-right: auto"
+        />
+        <div
+          class="web-display-bottomleft web-container web-padding-16 web-black"
+          style="margin-top: -20px; display: none"
+          id="caption4"
+        >
+          Caption 4
+        </div>
+        <img
+          class="web_slideshow"
+          src="../../Media/Images/december_reminder.png"
+          style="margin-left: auto; margin-right: auto"
+        />
+        <div
+          class="web-display-bottomleft web-container web-padding-16 web-black"
+          style="margin-top: -20px; display: none"
+          id="caption5"
+        >
+          Caption 5
+        </div>
+        <button class="web-button web-display-left" onclick="webbackward()">
+          &#10094;
+        </button>
+        <button class="web-button web-display-right" onclick="webforward()">
+          &#10095;
+        </button>
+        <!-- End of Slideshow div -->
+      </div>
       <br />
-      <p>
+      <h2 style="margin-top: 10px">
+        Find the link for the Flow diagram and include it here. Maybe try to
+        embed?
+      </h2>
+      <br />
+      <p style="font-weight: bold">
         Visit the website:
         <a
           href="https://fris16ky.github.io/CSI-3150-Project-Website-/"
@@ -79,7 +180,7 @@
         </a>
       </p>
       <br />
-      <p>
+      <p style="font-weight: bold">
         View this project on GitHub:
         <a
           href="https://github.com/fris16ky/CSI-3150-Project-Website-"

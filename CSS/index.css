@@ -81,6 +81,11 @@ Without this, the Learn More buttons were displaying over it and blocking some o
   font-weight: bold;
 }
 
+.background {
+  font-weight: 500;
+  margin-right: 650px;
+}
+
 .wrapup {
   padding: 0px;
   margin: 0px;
@@ -96,9 +101,10 @@ Without this, the Learn More buttons were displaying over it and blocking some o
 /* Blending the colors of the current and next container/sections, hoping this looks more seamless and smoother */
 .ProjectsContainer {
   background-image: linear-gradient(lightblue 69%, rgb(204, 204, 255));
-  /* lightblue to  rgb(204, 204, 255)*/
   text-align: left;
-  width: 100%;
+  color: purple;
+  font-weight: 500;
+  /* width: 100% was here */
 }
 
 .project_beginning {
@@ -146,6 +152,7 @@ around the middle of each image */
   position: relative;
   top: 74px;
   margin-bottom: 23px;
+  margin-right: 100px;
 }
 
 .app_desc {
@@ -156,6 +163,7 @@ around the middle of each image */
 
 .keyb_desc {
   margin-top: 10px;
+  margin-right: 75px;
   position: relative;
   top: 36px;
 }
@@ -171,6 +179,7 @@ around the middle of each image */
   position: relative;
   top: 75px;
   margin-bottom: 35px;
+  margin-right: 100px;
 }
 
 .last_project {
@@ -237,6 +246,7 @@ around the middle of each image */
   color: yellow;
   position: relative;
   top: 25px;
+  right: 104px;
 }
 
 .learnMore:hover {
@@ -254,6 +264,10 @@ around the middle of each image */
   color: black;
   font-size: 13pt;
   width: 100%;
+}
+
+.SkillsContainer p {
+  color: gray;
 }
 
 .row_one {
@@ -308,6 +322,7 @@ around the middle of each image */
 .cntbtn:hover,
 #hoverFooter:hover {
   color: gold;
+  font-weight: bold;
 }
 
 .footer li a {
