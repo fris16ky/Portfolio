@@ -57,6 +57,7 @@ Without this, the Learn More buttons were displaying over it and blocking some o
 .AboutMeContainer {
   background-image: linear-gradient(rgb(211, 211, 211, 65%) 86%, lightblue);
   margin-top: 5px;
+  width: 100%;
 }
 
 .pic_with_links {
@@ -97,8 +98,7 @@ Without this, the Learn More buttons were displaying over it and blocking some o
   background-image: linear-gradient(lightblue 69%, rgb(204, 204, 255));
   /* lightblue to  rgb(204, 204, 255)*/
   text-align: left;
-  /* ^This won't work. Unsure why atm. Maybe I'll need to manually make each part center that I want, instead of making 
-  EVERYTHING center. Then I can manually make this left*/
+  width: 100%;
 }
 
 .project_beginning {
@@ -253,6 +253,7 @@ around the middle of each image */
   padding-right: 10px;
   color: black;
   font-size: 13pt;
+  width: 100%;
 }
 
 .row_one {
@@ -279,6 +280,7 @@ around the middle of each image */
   font-size: 16pt;
   padding-top: 20px;
   padding-bottom: 20px;
+  width: 100%;
 }
 
 /* Removing bullets and changing text color to white */
