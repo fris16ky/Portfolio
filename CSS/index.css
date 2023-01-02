@@ -149,6 +149,13 @@ the href (deadzone) */
 We are changing the positioning of the text to be relative, and moving it down to
 around the middle of each image */
 
+.web_desc {
+  position: relative;
+  top: 74px;
+  margin-bottom: 23px;
+  margin-right: 100px;
+}
+
 .app_desc {
   position: relative;
   top: 95px;
@@ -228,27 +235,6 @@ around the middle of each image */
 
 #sys_preview:hover {
   filter: brightness(40%);
-}
-
-/* @media screen and (max-width: 2900) {
-  body {
-    width: 720px;
-  }
-}
-@media screen and (max-width: 1920) {
-  body {
-    width: 720px;
-  }
-} */
-/* This shit just isn't working. I'm trying to get the Learn More Buttons in the same place on
-both my laptop and my desktop but it's beeing finnicky for whatever reason. It's not reading
-my screen width or anything. Maybe it's only for mobile versus desktop? Unsure */
-
-.web_desc {
-  position: relative;
-  top: 74px;
-  margin-bottom: 23px;
-  margin-right: 100px;
 }
 
 /* Learn More buttons for each Project */
