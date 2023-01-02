@@ -4,6 +4,7 @@ var one = document.getElementById("caption1");
 var two = document.getElementById("caption2");
 var three = document.getElementById("caption3");
 var four = document.getElementById("caption4");
+var five = document.getElementById("caption5");
 
 var slideIndex = 1;
 showDivs(slideIndex);
@@ -28,6 +29,9 @@ function webbackward(n) {
   if (slideIndex != 4) {
     four.style.display = "none";
   }
+  if (slideIndex != 5) {
+    five.style.display = "none";
+  }
   if (slideIndex == 1) {
     //If we're on the first slide, display the first caption
     one.style.display = "block";
@@ -37,6 +41,10 @@ function webbackward(n) {
     three.style.display = "block";
   } else if (slideIndex == 4) {
     four.style.display = "block";
+  } else if (slideIndex == 5) {
+    five.style.display = "block";
+    //Automatic smooth scrolling once the larger image is displayed
+    five.scrollIntoView();
   }
 }
 
@@ -55,6 +63,9 @@ function webforward(n) {
   if (slideIndex != 4) {
     four.style.display = "none";
   }
+  if (slideIndex != 5) {
+    five.style.display = "none";
+  }
   if (slideIndex == 1) {
     //If we're on the first slide, display the first caption
     one.style.display = "block";
@@ -64,6 +75,10 @@ function webforward(n) {
     three.style.display = "block";
   } else if (slideIndex == 4) {
     four.style.display = "block";
+  } else if (slideIndex == 5) {
+    five.style.display = "block";
+    //Automatic smooth scrolling once the larger image is displayed
+    five.scrollIntoView();
   }
 }
 
