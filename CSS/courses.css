@@ -1,3 +1,72 @@
+* {
+  font-family: "Times New Roman", Times, serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navi {
+  margin-bottom: 30px;
+}
+
+.navi ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: navy;
+}
+
+.navi li {
+  float: right;
+}
+
+.navi li a {
+  display: block;
+  background-color: navy;
+  color: white;
+  padding: 23px 20px;
+  text-decoration: none;
+}
+
+.navi li a:hover {
+  background-color: crimson;
+  transition: 0.3s ease;
+}
+
+.navi .name {
+  float: left;
+}
+
+.navi .name a {
+  color: gold;
+}
+
+.navi .name a:hover {
+  background-color: darkorchid;
+}
+
+/* Courses styling */
+
+.img-with-text {
+  width: 700px;
+  margin-top: 100px;
+  float: left;
+}
+
+.img-with-text a img {
+  display: block;
+  margin: 0 auto;
+  float: left;
+}
+
+.coursesContainer ul {
+  margin-left: 720px;
+}
+
+.coursesContainer ul li {
+  margin-bottom: 7px;
+}
+
 .WIP {
   color: red;
 }

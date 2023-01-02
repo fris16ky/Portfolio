@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home Page for my Portfolio</title>
+    <title>Home Page for my Portfolio Website</title>
 
     <!-- Font Awesome -->
     <script
@@ -12,120 +12,502 @@
       crossorigin="anonymous"
     ></script>
 
+    <!-- Script for the MATLAB and C# Icons -->
+    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+
     <!-- CSS links (need to style this: https://github.com/martysen/portfolio_site) 
       great ideas here (and other places throughout the interwebs!) -->
     <link rel="stylesheet" href="./CSS/index.css" />
+
+    <!-- JS -->
+    <script src="JS/index.js" defer></script>
+
+    <!-- Favicon -->
+    <link rel="icon" href="./Media/Images/L_favicon.png" type="image" />
   </head>
   <body>
-    So this will be my portfolio for school/resume building. Currently, this is
-    what I should add:
-    <p>
-      NEW IDEA: So, pulling from both examples. In the long, scroll-down home
-      page, we'll have mini descriptions of each project. If they want, there'll
-      be a "Learn More" or something, to take you to the full blown HTML page.
-      On that page, there'll be a demo running you through the highlights
-      (unlisted YouTube link? - need a fresh account for that though)
-    </p>
-    <ul>
-      <li>
-        ***MAIN*** one website that I saw,
-        <a href="http://www.ericwadkins.com/" target="blank"
-          >http://www.ericwadkins.com/</a
-        >
-        is REALLY nice, and keeps his portfolio very precise. It's all one on
-        page, with the Navigation tools dragging you down to each section. i.e.
-        Projects, Skills, About Me, etc. I'd have to learn the style by hand,
-        but it seems to be the most inviting of the few ones I've looked at so
-        far. It's a shit ton of code, but I did find his GitHub page for it.
-        Definitely DEFINITELY look into and try to copy/adapt his vision.
-      </li>
-      <li>
-        Going off of this, for the Projects portion, I do want the little
-        pictures, but instead of it bringing you to a pop-up, I think I'd rather
-        have that lead to separate pages, where I can dedicate more effort into
-        them (since I have few projects)
-      </li>
-      <li>
-        From http://www.meganlandau.com/portfolio-1 this page, I appreciate the
-        "Major-related Coursework" page, I think that'll help me a lot. Her
-        design choices are very simplistic, and I appreciate that. It's more
-        realistic than the Eric Wadkins one, so I'll merge the two I imagine.
-        First problem is functionality, then we move to making it look pretty!
-        She does not have her code uploaded on GitHub however. A little more
-        tricky
-      </li>
-
-      <li>
-        GitHub Page (which will have a majority of my repositories, but it's
-        better to have an interactive webpage Showing them/linking to them as
-        opposed to them having to click it then click thru the different repos.
-      </li>
-      <li>
-        Keyboard Warriors (Android Studio Game); probably can't embed, but link
-        Project Reports and such
-      </li>
-      <li>
-        My CSI 3150 Project Part 1 Website (include an anchor tag to get them to
-        my github-hosted link
-      </li>
-      <li>Maybe a couple of demos that we do/did in CSI 3150?</li>
-      <li>
-        Try to showcase other languages - maybe figure out a way to show my C#
-        coding?
-      </li>
-      <li>
-        Have an About Me Page - list all of the Languages I've learned, and what
-        classes I took with them -- showcase some code with it. i.e. Craps game
-        for C#, Database project for Microsoft SQL, Keyboard Warriors in Java.
-      </li>
-      <li>My Mobile App for 3150 Project Part 2</li>
-      <li>
-        3660 Project - creating a website and running a Game Server (Garry's
-        Mod) using Google Cloud (GCP) and Linux
-      </li>
-      <li>
-        Information/Code from my Arduino work (in SAE? but mainly C# - EGR 1400)
-      </li>
-      <li>
-        Don't forget to Git Init and upload this to my GitHub page as well. Have
-        this portfolio page in the main part of my resume, which I also need to
-        revamp
-      </li>
-      <li>
-        Maybe include info from high school? Marching Band for 4 years, Band for
-        7 years, Jazz Band 2 years, Science NHS, Co-Founder of the Stoney Creek
-        High School Mountain Biking Team, AP classes (Comp Sci, Calc BC,
-        Statistics, Lang, Micro Economics - or maybe just the ones I got College
-        Credit for - Principle of Microeconomics, Calculus 1, Calculus 2, Intro
-        Stat Concepts/Reasoning)
-      </li>
-    </ul>
-
-    <nav>
-      <a href="./Pages/Projects/csi3150Website.html">My Website</a>
-      <br />
-      <a href="./Pages/aboutMe.html">About Me</a>
-      <br />
-      <a
-        href="./Pages/Projects/keyboardWarriors.html"
-        title="Keyboard Warriors - an Android Application"
-        ><i class="fa-solid fa-keyboard"></i
-      ></a>
-      &emsp;
-      <a
-        href="./Pages/Projects/sysAdminProject.html"
-        title="Garry's Mod Server"
-        style="font-weight: bold"
-        ><i class="fa-brands fa-goodreads-g"></i>
-        <!-- I want to make this bigger. Might just need a new logo - looks a little light idk -->
-      </a>
-      <br />
-      <a href="./Pages/relatedCourses.html">Major-Relevant Coursework</a>
-      <br />
-      <a href="./Pages/skills.html">Skills</a>
-      <br />
-      <a href="./Pages/Projects/mySql.html">MySQL Database Project</a>
-      <br />
+    <!-- Top bar navigation -->
+    <nav class="navi">
+      <ul>
+        <li><a href="./Pages/relatedCourses.html">Important Coursework</a></li>
+        <li><a href="#Skills">Skills</a></li>
+        <li><a href="#Projects">Projects</a></li>
+        <li><a href="#AboutMe">About Me</a></li>
+        <li><a href="./index.html">Home</a></li>
+        <!-- My name (top left) will also bring the user back home -->
+        <!-- May want to look into trying to have the navigation bar be absolute - so that you don't
+        have to scroll up to click it -->
+        <li class="name">
+          <a href="./index.html" title="Home">Logan Howard</a>
+        </li>
+      </ul>
     </nav>
+    <br /><br /><br />
+
+    <!-- Beginning of the portfolio - information about myself. There'll be a container for each major part of the index page -->
+    <div class="AboutMeContainer" id="AboutMe">
+      <br /><br />
+      <div class="pic_with_links">
+        <img
+          src="./Media/Images/Logan Howard Yearbook.jpg"
+          title="Professional Picture"
+          height="450px"
+        />
+        <br />
+        <!-- 2 bubbles/icons - GitHub, LinkedIn with a tab space in between them -->
+        <a
+          href="https://github.com/fris16ky"
+          target="_blank"
+          title="GitHub"
+          height="40px"
+          style="margin-right: 5px"
+          ><i class="fa-brands fa-square-github fa-2x"></i
+        ></a>
+        &emsp;
+        <a
+          href="https://www.linkedin.com/in/logan-howard-9a735b214/"
+          target="_blank"
+          title="LinkedIn"
+          ><i class="fa-brands fa-linkedin fa-2x"></i>
+        </a>
+      </div>
+
+      <!-- Info to the right of the image -->
+      <section class="info">
+        <br /><br />
+        <p class="aboutMeName">Logan Howard</p>
+        <p class="collegeInfo">Oakland University '23, SECS</p>
+        <br />
+        <h3>Background</h3>
+        <p class="background">
+          <br />
+          I am currently a senior at
+          <a href="https://www.oakland.edu/">Oakland University</a> in Auburn
+          Hills, Michigan. I am <br />studying Computer Science, with a
+          specialization in System Administration. <br /><br />
+          I grew up in Springboro, Ohio, but moved to Michigan in 2010, where
+          I've lived ever sense. <br />I have been playing video games and using
+          computers since I was very young, and I fell in love <br />with coding
+          in my AP Computer Science course in my Junior year at high school.
+          <br /><br />
+          My interests include software development, database management,
+          statistics, and working with webpages.
+        </p>
+        <br />
+        <p>
+          <li class="degree">
+            Bachelor of Science in Engineering and Computer Science
+          </li>
+          <li>Professional Track: System Administration</li>
+          <li style="margin-bottom: 5px">Graduating with Department Honors</li>
+        </p>
+      </section>
+      <!-- Separating the bottom of the About Me from the top of the Projects portion -->
+      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    </div>
+    <div class="ProjectsContainer" id="Projects">
+      <br />
+      <h2
+        style="
+          text-align: center;
+          font-size: 30px;
+          color: navy;
+          margin-bottom: 10px;
+        "
+      >
+        Projects
+      </h2>
+      <!-- Maybe make the font of Projects cool, and prolly a little bigger, maybe dif color too -->
+      <div class="project_beginning">
+        <div class="first_project">
+          <!-- Website Project -->
+          <a href="./Pages/Projects/csi3150Website.html">
+            <img
+              src="./Media/Images/website_preview.png"
+              width="400px"
+              height="250px"
+              style="float: left"
+              id="website_preview"
+              title="Website Project"
+            />
+          </a>
+          <br />
+          <p class="web_desc">
+            Website Application that allows users to write and delete reminders
+            using a calendar system.
+          </p>
+        </div>
+        <!-- Learn More button that takes the user to each project's respective and dedicated page -->
+        <a
+          href="./Pages/Projects/csi3150Website.html"
+          style="float: right; position: relative; bottom: 139px; right: 313px"
+        >
+          <button class="learnMore">Learn More</button></a
+        >
+
+        <br /><br /><br /><br />
+        <!-- To-Do List Mobile App Project -->
+        <div class="second_project">
+          <!-- These divs are to contain each project, mainly to make them flex boxes. Without the display being flex, 
+          I had issues where the text area extended through the image (not visually), making a dead spot in the anchor tagged
+          image where you couldn't click on the image to view that project. Flex box fixes that, whilst also slightly complicating -->
+          <a href="./Pages/Projects/csi3150App.html">
+            <img
+              src="./Media/Images/app_preview.png"
+              height="250px"
+              width="330px"
+              title="App Project"
+              style="float: left; margin-left: 60px"
+              id="app_preview"
+            />
+          </a>
+          <p class="app_desc">
+            React-Native mobile application that keeps track of set reminders.
+          </p>
+        </div>
+        <br /><br />
+        <!-- The LearnMore button is not a part of the flexbox since it puts the items in a row; we want the button to be 
+        unaffected and under the paragraph instead of to the side of it. So, we're making the position relative and moving it
+        back to its original spot -->
+        <a
+          href="./Pages/Projects/csi3150App.html"
+          style="float: right; position: relative; bottom: 172px; right: 348px"
+        >
+          <button class="learnMore">Learn More</button></a
+        >
+        <!-- 3 break lines, otherwise the Learn More button would be put in the second column -->
+        <br /><br /><br />
+
+        <!-- Second Column of 2 projects -->
+        <div class="col2">
+          <!-- Keyboard Warriors (mobile app) Project -->
+          <div class="third_project">
+            <a href="./Pages/Projects/keyboardWarriors.html">
+              <img
+                src="./Media/Images/keyboardWarriorsLogo.png"
+                style="float: left; margin-left: 40px"
+                title="Android Studio Project"
+                id="keyb_preview"
+              />
+            </a>
+            <p class="keyb_desc">
+              A Java-based Android Studio Project designed to improve player's
+              ability to type on a mobile phone.
+            </p>
+          </div>
+          <br /><br />
+          <a
+            href="./Pages/Projects/keyboardWarriors.html"
+            style="
+              float: right;
+              position: relative;
+              bottom: 147px;
+              right: 325px;
+            "
+          >
+            <button class="learnMore">Learn More</button></a
+          >
+          <br /><br /><br />
+          <!-- Database/SQL Project -->
+          <div class="fourth_project">
+            <a href="./Pages/Projects/microSql.html">
+              <img
+                src="./Media/Images/Microsoft SQL Server logo.jpg"
+                title="Database Project"
+                style="float: left; margin-left: 30px"
+                height="280px"
+                width="400px"
+                id="sql_preview"
+              />
+            </a>
+            <p class="sql_desc">
+              School-themed database project using Microsoft SQL Server.
+            </p>
+          </div>
+          <br /><br />
+          <a
+            href="./Pages/Projects/microSql.html"
+            style="
+              float: right;
+              position: relative;
+              bottom: 129px;
+              right: 307px;
+            "
+          >
+            <button class="learnMore">Learn More</button></a
+          >
+        </div>
+      </div>
+      <div class="last_project">
+        <!-- Game Server Project -->
+        <div class="fifth_project">
+          <a href="./Pages/Projects/sysAdminProject.html">
+            <img
+              src="./Media/Images/garrysmod_preview.jpg"
+              title="System Administration Project"
+              style="float: left; margin-left: 30px"
+              width="400px"
+              id="sys_preview"
+            />
+          </a>
+          <p class="sys_desc">
+            Linux-based project using the Google Cloud Platform to create a
+            server for the game Garry's Mod.
+          </p>
+        </div>
+        <br /><br />
+        <a
+          href="./Pages/Projects/sysAdminProject.html"
+          style="
+            float: right;
+            margin-bottom: 10px;
+            position: relative;
+            bottom: 154px;
+            right: 316px;
+          "
+        >
+          <button class="learnMore">Learn More</button></a
+        >
+      </div>
+      <br /><br /><br /><br /><br />
+    </div>
+    <!-- <p>
+      Take heavy inspiration from erikwadkins for this. His is clean af. He did
+      put his website into github, so that will be helpful for bouncing my ideas
+      off of his
+    </p>
+    <p>
+      I was going to make the navigation tags for this, but I'm 90% sure this
+      page will be removed and just added to the bottom of the Index
+    </p>
+    ***Just as a note, all of these individual HTML pages (or, at least most of
+    them) will all be combined in the index page. I'll probably have individual
+    pages for my big projects, including the reports and maybe a demo? But
+    skills, AboutMe, relatedCourses + will hopefully all be on one cohesive page -->
+    <!-- End of projects - now onto Skills (programming languages & experience) -->
+    <div class="SkillsContainer" id="Skills">
+      <h1 style="text-align: center; color: navy">Skills:</h1>
+      <br />
+      <div class="row">
+        <div class="row_one">
+          <!-- Java Skill -->
+          <span>
+            <i class="fa-brands fa-java fa-3x" style="margin-bottom: 8px"></i>
+          </span>
+          <h4 style="margin-bottom: 4px; color: navy">Java</h4>
+          <p>
+            Java was the first language I learned; I have around 4 years of
+            experience learning about and using the language. I have worked on a
+            few projects, including working with Wireshark and creating an
+            <a href="./Pages/Projects/keyboardWarriors.html"
+              >Android Studio Application</a
+            >.
+          </p>
+          <!-- HTML, CSS, JS Skill -->
+          <span
+            ><i class="fa-brands fa-html5 fa-3x" style="margin-bottom: 8px"></i
+          ></span>
+          <h4 style="margin-bottom: 4px; color: navy">HTML, CSS, JavaScript</h4>
+          <p>
+            I have a few months of experience with HTML, with my class starting
+            in September. I have created my own
+            <a href="./Pages/Projects/csi3150Website.html"
+              >front-end, GitHub-ran website</a
+            >
+            along with other various web applications including a calculator and
+            a quiz app. I also trialed with Node.js and tailwind CSS.
+          </p>
+          <!-- Python Skill -->
+          <span
+            ><i class="fa-brands fa-python fa-3x" style="margin-bottom: 8px"></i
+          ></span>
+          <h4 style="margin-bottom: 4px; color: navy">Python</h4>
+          <p>
+            I began Python at the end of 2021, where my main experience came
+            with designing and analyzing algorithms and dealing with runtime.
+          </p>
+        </div>
+        <br /><br />
+        <div class="row_two">
+          <!-- Second row of 3 skills -->
+          <!-- React Native/Expo Skill -->
+          <span
+            ><i class="fa-brands fa-react fa-3x" style="margin-bottom: 8px"></i
+          ></span>
+          <h4 style="margin-bottom: 4px; color: navy">React Native and Expo</h4>
+          <p>
+            I have also only worked with React for a few months at the end of
+            2022. My experience includes developing clones of AirBnB, and Uber,
+            the latter of which we learned how to embed and use the Google API.
+            I also developed my own
+            <a href="./Pages/Projects/csi3150App.html"
+              >mobile Expo Application</a
+            >, which was made for Android devices.
+          </p>
+          <!-- GCP Skill -->
+          <span
+            ><i class="fa-brands fa-google fa-3x" style="margin-bottom: 8px"></i
+          ></span>
+          <h4 style="margin-bottom: 4px; color: navy">Google Cloud Platform</h4>
+          <p>
+            I began using the Google Cloud Platform during my fall semester of
+            2022. I first used it for System Administration, where we learned
+            how to navigate Linux and the GCP, as well as working with
+            scripting. Eventually, my group of 4 created a
+            <a href="./Pages/Projects/sysAdminProject.html"
+              >multiplayer server</a
+            >
+            for the game Garry's Mod as our final project.
+          </p>
+          <!-- C# Skill -->
+          <iconify-icon
+            icon="simple-icons:csharp"
+            style="margin-bottom: 3px; font-size: 3em"
+          ></iconify-icon>
+          <h4 style="margin-bottom: 4px; color: navy">C#</h4>
+          <p>
+            I have moderate experience with creating applications using C#. I
+            have developed projects for
+            <a href="https://en.wikipedia.org/wiki/Craps"
+              >a card game called Craps</a
+            >, a bodyfat and ideal weight detector, graphing any second-degree
+            parabola, detecting anagrams from a text file using histograms, etc.
+            All of these projects were completed using Visual Studio with .NET
+            Framework.
+          </p>
+        </div>
+        <br /><br />
+        <div class="row_three">
+          <!-- Third row, only 2 skills for now -->
+          <!-- Microsoft SQL Server Skill -->
+          <span>
+            <i
+              class="fa-solid fa-database fa-3x"
+              style="margin-bottom: 8px"
+            ></i>
+          </span>
+          <h4 style="margin-bottom: 4px; color: navy">Microsoft SQL Server</h4>
+          <p>
+            I have moderate experience with navigating databases, specifically
+            with Microsoft SQL Server and mycompiler.io. My sole project was
+            creating and querying a database; the one I created dealt with
+            <a href="./Pages/Projects/microSql.html">the School system</a> and
+            included 3-5 points of data for each table.
+          </p>
+          <!-- MATLAB Skill -->
+          <span>
+            <iconify-icon
+              icon="file-icons:matlab"
+              style="margin-bottom: 8px; margin-top: -5px; font-size: 3em"
+            ></iconify-icon>
+          </span>
+          <h4 style="margin-bottom: 4px; color: navy">Matlab</h4>
+          <p style="margin-bottom: 10px">
+            I have a few months of experience in MATLAB. I mainly learned this
+            at the end of my course in C#, in coordination with an Arduino Uno.
+            The Arduino received a feed from a sensor, which plotted points on a
+            matlab plot based on how close an object was to the sensor.
+            Additional plots were made for the first (velocity) and second
+            (acceleration) derivatives of the position plot.
+          </p>
+          <span
+            ><iconify-icon
+              icon="codicon:ruby"
+              style="margin-top: 3px; font-size: 3em"
+            ></iconify-icon
+          ></span>
+          <h4 style="margin-bottom: 4px; color: navy">Ruby</h4>
+          <p style="margin-bottom: 10px">
+            I have limited experience with Ruby; I took an intro class on it in
+            the Fall Semester of 2022. This class was asynchronous where we read
+            out of the textbook, but there were a few interesting projects that
+            worked on out of the book, but nothing too complex.
+          </p>
+        </div>
+        <br />
+        <!-- <li>
+          Add whatever I did for my Senior Capstone Project here, if need be.
+          Will *probably* fit under one of the other categories, and will also
+          be late for the first round of applications.
+        </li> -->
+        <br />
+        <!-- Div for rows -->
+      </div>
+      <!-- Div for Skills Container -->
+    </div>
+    <!-- Consider adding a footer - Contact Me, copyright (for fun), maybe a list of all my social medias again, a link back up to the About Me,
+    Resume -->
+    <!-- For contact me - either another small page with my info, but preferably a pop-up or something. 
+    Maybe a display like Create a Reminder -> when clicked, display my name, emails (OU and gmail), phone number
+    ^^^GREAT IDEA -->
   </body>
+  <footer>
+    <div class="footerContainer">
+      <div class="footer">
+        <ul>
+          <li style="margin-top: 10px; margin-left: 25px; margin-right: 50px">
+            Copyright &copy; Logan Howard 2022
+          </li>
+          <li style="margin-top: 10px; margin-right: 80px">
+            <div class="contact_btn">
+              <button class="cntbtn">Contact Me</button>
+            </div>
+          </li>
+          <li style="margin-right: 60px; margin-top: 3px">
+            <a
+              href="https://www.linkedin.com/in/logan-howard-9a735b214/"
+              target="_blank"
+              title="LinkedIn"
+            >
+              <i class="fa-brands fa-linkedin-in fa-2x"></i
+            ></a>
+          </li>
+          <li style="margin-top: 3px">
+            <a
+              href="https://github.com/fris16ky"
+              target="_blank"
+              title="GitHub"
+            >
+              <i class="fa-brands fa-circle-thin fa-github fa-2x"></i
+            ></a>
+          </li>
+          <li style="float: right; margin-top: 10px; margin-right: 50px">
+            <a href="#AboutMe" style="text-decoration: none" id="hoverFooter"
+              >About Me</a
+            >
+          </li>
+          <li style="float: right; margin-top: 10px; margin-right: 40px">
+            <a
+              href="Media/Files/Resume Logan Howard.pdf"
+              style="text-decoration: none"
+              id="hoverFooter"
+              >Resume</a
+            >
+          </li>
+        </ul>
+        <!-- Div end for footer -->
+      </div>
+      <!-- Div end for the footerContainer -->
+    </div>
+    <div id="contact_info" class="hide">
+      <!-- This will contain my contact information. This will be hidden by default, and will display
+      when the "Contact Me" button is pressed -->
+      <h2 style="color: white">Contact Me</h2>
+      <p style="font-size: 14pt">
+        Email:
+        <a href="mailto:hlogan235@gmail.com" style="color: gold"
+          >hlogan235@gmail.com</a
+        >
+        ||
+        <a href="mailto:loganhoward@oakland.edu" style="color: gold"
+          >loganhoward@oakland.edu</a
+        >
+      </p>
+      <p style="font-size: 14pt; margin-top: 5px">
+        Phone:
+        <a href="tel:+2486729878" style="color: gold">(248)-672-9878</a>
+      </p>
+      <br />
+    </div>
+  </footer>
 </html>

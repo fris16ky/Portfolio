@@ -1,4 +1,332 @@
 * {
   font-family: "Times New Roman", Times, serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navi {
+  margin-bottom: 30px;
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  z-index: 1;
+}
+/* Z-index pushes the navbar forward, meaning nothing can be displayed over it. 
+Without this, the Learn More buttons were displaying over it and blocking some of the content */
+
+.navi ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: navy;
+}
+
+.navi li {
+  float: right;
+}
+
+.navi li a {
+  display: block;
+  background-color: navy;
+  color: white;
+  padding: 25px 20px;
+  text-decoration: none;
+}
+
+.navi li a:hover {
+  background-color: crimson;
+  transition: 0.3s ease;
+}
+
+.navi .name {
+  float: left;
+}
+
+.navi .name a {
+  color: gold;
+}
+
+.navi .name a:hover {
+  background-color: darkorchid;
+}
+
+/* About Me styling */
+
+/* Blending the colors of the current and next container/sections, hoping this looks more seamless and smoother */
+.AboutMeContainer {
+  background-image: linear-gradient(rgb(211, 211, 211, 65%) 86%, lightblue);
+  margin-top: 5px;
+}
+
+.pic_with_links {
+  float: left;
+  margin-left: 344px;
   text-align: center;
+  padding-right: 20px;
+}
+
+.aboutMeName {
+  margin-left: 20px;
+  padding-left: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+/* No matter what, the space between the pic and the text isn't changing. For now, just changing the padding for the image */
+
+.collegeInfo {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.wrapup {
+  padding: 0px;
+  margin: 0px;
+}
+
+.degree {
+  padding: 0px;
+  margin: 0px;
+}
+
+/* Projects Styling */
+
+/* Blending the colors of the current and next container/sections, hoping this looks more seamless and smoother */
+.ProjectsContainer {
+  background-image: linear-gradient(lightblue 69%, rgb(204, 204, 255));
+  /* lightblue to  rgb(204, 204, 255)*/
+  text-align: left;
+  /* ^This won't work. Unsure why atm. Maybe I'll need to manually make each part center that I want, instead of making 
+  EVERYTHING center. Then I can manually make this left*/
+}
+
+.project_beginning {
+  column-count: 2;
+}
+
+.col2 {
+  margin-top: 100px;
+  padding-top: 45px;
+}
+
+/* Setting each project image/anchor + description to display as a flexbox to fix an issue with 
+the href (deadzone) */
+.first_project {
+  padding-top: 15px;
+  display: flex;
+  flex-direction: row;
+}
+
+.second_project {
+  display: flex;
+  flex-direction: row;
+  /* I think the direction is row by default, but it's still beneficial to remind myself that it is a row. */
+}
+
+.third_project {
+  display: flex;
+  flex-direction: row;
+}
+
+.fourth_project {
+  display: flex;
+  flex-direction: row;
+}
+
+.fifth_project {
+  display: flex;
+  flex-direction: row;
+}
+
+/* These adjustments are for the Project Descriptions - not the Learn More buttons 
+We are changing the positioning of the text to be relative, and moving it down to
+around the middle of each image */
+.web_desc {
+  position: relative;
+  top: 74px;
+  margin-bottom: 23px;
+}
+
+.app_desc {
+  position: relative;
+  top: 95px;
+  margin-bottom: 42px;
+}
+
+.keyb_desc {
+  margin-top: 10px;
+  position: relative;
+  top: 36px;
+}
+
+.sql_desc {
+  position: relative;
+  top: 108px;
+  margin-bottom: 71px;
+  margin-right: 10px;
+}
+
+.sys_desc {
+  position: relative;
+  top: 75px;
+  margin-bottom: 35px;
+}
+
+.last_project {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: -40px;
+  padding-left: 54px;
+}
+
+/* These are the images for each of the 5 projects */
+#website_preview {
+  margin-left: 25px;
+  margin-right: 8px;
+  padding: 0;
+}
+
+#app_preview {
+  margin-right: 8px;
+}
+
+#keyb_preview {
+  margin-top: 10px;
+  margin-right: 8px;
+}
+
+#sql_preview {
+  margin-right: 8px;
+}
+
+#sys_preview {
+  margin-right: 8px;
+}
+
+/* Darkening the image when hovered to tell when the user can click on the href */
+#website_preview:hover {
+  filter: brightness(40%);
+}
+
+#app_preview:hover {
+  filter: brightness(40%);
+}
+
+#keyb_preview:hover {
+  filter: brightness(40%);
+}
+
+#sql_preview:hover {
+  filter: brightness(40%);
+}
+
+#sys_preview:hover {
+  filter: brightness(40%);
+}
+
+/* Learn More buttons for each Project */
+.learnMore {
+  border-color: violet;
+  background-color: violet;
+  margin-left: 0px;
+  border-width: 10px;
+  font-size: 15px;
+  color: yellow;
+  position: relative;
+  top: 25px;
+}
+
+.learnMore:hover {
+  border-color: blue;
+  background-color: blue;
+  color: white;
+}
+
+/* Skills Styling */
+
+.SkillsContainer {
+  background-color: rgb(204, 204, 255);
+  padding-left: 10px;
+  padding-right: 10px;
+  color: black;
+  font-size: 13pt;
+}
+
+.row_one {
+  column-count: 3;
+  /* https://www.w3schools.com/css/css3_multiple_columns.asp for column info. Can set column-gap and such */
+  text-align: center;
+}
+
+.row_two {
+  column-count: 3;
+  text-align: center;
+}
+
+.row_three {
+  column-count: 3;
+  text-align: center;
+}
+
+/* Styling of the footer */
+.footerContainer {
+  margin: 0;
+  padding: 0;
+  background-color: navy;
+  font-size: 16pt;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* Removing bullets and changing text color to white */
+.footer ul {
+  list-style-type: none;
+  overflow: hidden;
+  color: white;
+}
+
+.footer li {
+  float: left;
+  padding-left: 30px;
+}
+
+/* Styling the button - getting rid of the border and making it blend with the container colors */
+.cntbtn {
+  border: none;
+  outline: inherit;
+  background: none;
+  color: white;
+  font-size: 18pt;
+}
+
+/* Combining Contact Me and Resume + About Me hover turning the text color gold */
+.cntbtn:hover,
+#hoverFooter:hover {
+  color: gold;
+}
+
+.footer li a {
+  color: white;
+}
+
+.footer a i:hover {
+  color: red;
+}
+
+#contact_info {
+  text-align: center;
+  background-color: navy;
+  color: white;
+}
+
+/* For the Contact Info button, default is on hide (showing nothing) */
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
 }

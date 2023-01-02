@@ -13,7 +13,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #747880;
+  background-color: navy;
 }
 
 li {
@@ -22,9 +22,9 @@ li {
 
 li a {
   display: block;
-  background-color: #747880;
-  color: navy;
-  padding: 20px 20px;
+  background-color: navy;
+  color: white;
+  padding: 25px 20px;
   text-decoration: none;
 }
 
@@ -42,7 +42,11 @@ li a:hover {
 }
 
 .name a:hover {
-  background-color: navy;
+  background-color: darkorchid;
+}
+
+h2 {
+  color: magenta;
 }
 
 .info {
@@ -50,6 +54,9 @@ li a:hover {
   padding: 5px 5px;
 }
 
-.intro {
-  margin: 6px;
+p {
+  margin-left: 130px;
+  margin-right: 130px;
+  padding-right: 130px;
+  padding-left: 130px;
 }

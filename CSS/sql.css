@@ -5,39 +5,57 @@
   padding: 0;
 }
 
-ul {
+.navi ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #747880;
+  background-color: navy;
 }
 
-li {
+.navi li {
   float: right;
 }
 
-li a {
+.navi li a {
   display: block;
-  background-color: #747880;
-  color: navy;
-  padding: 20px 20px;
+  background-color: navy;
+  color: white;
+  padding: 25px 20px;
   text-decoration: none;
 }
 
-li a:hover {
+.navi li a:hover {
   background-color: crimson;
   transition: 0.3s ease;
 }
 
-.name {
+.navi .name {
   float: left;
 }
 
-.name a {
+.navi .name a {
   color: gold;
 }
 
-.name a:hover {
-  background-color: navy;
+.navi .name a:hover {
+  background-color: darkorchid;
+}
+
+body {
+  background-image: linear-gradient(to right, white, maroon);
+}
+
+p {
+  color: black;
+  font-weight: bold;
+  font-size: 14pt;
+  margin-left: 130px;
+  margin-right: 130px;
+  padding-right: 130px;
+  padding-left: 130px;
+}
+
+h2 {
+  color: white;
 }
