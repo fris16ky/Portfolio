@@ -5,6 +5,7 @@ var two = document.getElementById("caption2");
 var three = document.getElementById("caption3");
 var four = document.getElementById("caption4");
 var five = document.getElementById("caption5");
+var beforeFive = document.getElementById("b45");
 
 var slideIndex = 1;
 showDivs(slideIndex);
@@ -44,7 +45,7 @@ function webbackward(n) {
   } else if (slideIndex == 5) {
     five.style.display = "block";
     //Automatic smooth scrolling once the larger image is displayed
-    five.scrollIntoView();
+    beforeFive.scrollIntoView();
   }
 }
 
@@ -78,7 +79,7 @@ function webforward(n) {
   } else if (slideIndex == 5) {
     five.style.display = "block";
     //Automatic smooth scrolling once the larger image is displayed
-    five.scrollIntoView();
+    beforeFive.scrollIntoView();
   }
 }
 
