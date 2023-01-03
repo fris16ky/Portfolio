@@ -1,0 +1,46 @@
+This will be a file containing the talking points I want to/should do for each Project Demo: 
+
+Poodle Scheduler (HTML): 
+Walk-through of every page
+Look into the VS Project code (show how many files for CSS, JS, HTML, where I keep my images and such). 
+Slight walkthrough of the Flowchart diagram
+Talk about my future scope and what I initially envisioned? Instead of going through my entire Project Report, 
+which is already on the Project Page. Make this fluid if including it
+Give an example of Adding and Removing a reminder, maybe doing Delete All instead, since I showcase
+Delete One in the Description
+
+To-Do List (React): 
+Showcase VS project code
+Yarn web to start it up, then have it also load into a waiting Android Studio
+Showcase App (adding, checking, removing, image that pops up when all are removed)
+^Also for mobile app, alert box when you try to input nothing
+Talk about design choices (why this, probably not talk about Tesla tho)
+Walk thru Flowchart
+Maybe talk about future scope
+
+Keyboard Warriors (Java thru Android Studio): 
+Walk through project file -> Show sprites, audio/music (may not be audible), different levels (prac, easy, med, hard)
+Start up app, run through practice and one of the levels (in the vid skip thru once
+they probably get the jist. Show boss battle though. Showcase you taking damage and losing too)
+Walk through the Project Report - product backlog, removed features, then say the rest (+ the presentation) 
+is on the Project Page in my Portfolio Website
+
+Microsoft SQL Server Database Project (SQL): 
+Not much to demo
+Skim thru business rules, Entities, Attributes, Relationships.
+Show Data Directory (Google Sheets)
+Show ERM and Relational Database Model (ERM but with Relationships)
+Pull up compiler.io to show the code put into SQL - in sections. 
+First creating tables, then inserting data rows. (or maybe have it in already and just highlight em)
+Showcase each query (5)
+Showcase query to print every data value? 
+
+Garry's Mod (GCP + Linux/Ubuntu): 
+Show our GCP - maybe go inside (unsure how to traverse the website code)? We have two, one for the website, one for the Server
+Show off the website, which walks you through joining the Server
+Then go into the server and showcase each map
+Worse case, maybe just submit our demo video that we submitted for class. 
+Honestly, it's not the worse thing too, we put good work into it
+I think I'ma just use our demo. It's pretty solid. 
+I talked through 0:25 to 1:00 and 
+about what GMod and TTT is + introducing the gameplay

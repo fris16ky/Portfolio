@@ -1,13 +1,16 @@
 * {
   font-family: "Times New Roman", Times, serif;
   text-align: center;
-  background-color: lightblue;
   color: rgb(125, 6, 189, 80%);
   /* Really need to fix this color. Want to make it darker, but also lighter. I feel like
   it needs to be way more readable */
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+body {
+  background-color: lightblue;
 }
 
 ul {
@@ -54,6 +57,7 @@ h2 {
 .info {
   margin: 5px 5px;
   padding: 5px 5px;
+  background-color: lightblue;
 }
 
 p {
@@ -71,4 +75,9 @@ hr {
   margin-top: 15px;
   margin-bottom: 15px;
   width: 1000px;
+}
+
+.mxgraph {
+  background-color: white;
+  color: white;
 }
