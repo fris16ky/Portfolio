@@ -82,3 +82,65 @@ hr {
   background-color: white;
   color: white;
 }
+
+/* Styling of the footer */
+.footerContainer {
+  margin: 0;
+  padding: 0;
+  background-color: navy;
+  font-size: 16pt;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+}
+
+/* Removing bullets and changing text color to white */
+.footer ul {
+  list-style-type: none;
+  overflow: hidden;
+  color: white;
+}
+
+.footer li {
+  float: left;
+  padding-left: 30px;
+}
+
+/* Styling the button - getting rid of the border and making it blend with the container colors */
+.cntbtn {
+  border: none;
+  outline: inherit;
+  background: none;
+  color: white;
+  font-size: 18pt;
+}
+
+/* Combining Contact Me and Resume + About Me hover turning the text color gold */
+.cntbtn:hover,
+#hoverFooter:hover {
+  color: gold;
+  font-weight: bold;
+}
+
+.footer li a {
+  color: white;
+}
+
+.footer a i:hover {
+  color: red;
+}
+
+#contact_info {
+  text-align: center;
+  background-color: navy;
+  color: white;
+}
+
+/* For the Contact Info button, default is on hide (showing nothing) */
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
