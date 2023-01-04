@@ -1,7 +1,6 @@
 * {
   font-family: "Times New Roman", Times, serif;
   text-align: center;
-  color: rgb(125, 6, 189, 80%);
   /* Really need to fix this color. Want to make it darker, but also lighter. I feel like
   it needs to be way more readable */
   box-sizing: border-box;
@@ -13,7 +12,7 @@ body {
   background-color: lightblue;
 }
 
-ul {
+.navi ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -21,11 +20,11 @@ ul {
   background-color: navy;
 }
 
-li {
+.navi li {
   float: right;
 }
 
-li a {
+.navi li a {
   display: block;
   background-color: navy;
   color: white;
@@ -33,7 +32,7 @@ li a {
   text-decoration: none;
 }
 
-li a:hover {
+.navi li a:hover {
   background-color: crimson;
   transition: 0.3s ease;
 }
@@ -66,7 +65,12 @@ p {
   padding-right: 240px;
   padding-left: 240px;
   font-weight: 530;
+  color: rgb(125, 6, 189, 80%);
   /* Maybe keep the text within the image width? */
+}
+
+p a {
+  color: rgb(125, 6, 189, 80%);
 }
 
 hr {

@@ -9,7 +9,7 @@
   margin-bottom: 10px;
 }
 
-ul {
+.navi ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -17,11 +17,11 @@ ul {
   background-color: navy;
 }
 
-li {
+.navi li {
   float: right;
 }
 
-li a {
+.navi li a {
   display: block;
   background-color: navy;
   color: white;
@@ -29,7 +29,7 @@ li a {
   text-decoration: none;
 }
 
-li a:hover {
+.navi li a:hover {
   background-color: crimson;
   transition: 0.3s ease;
 }

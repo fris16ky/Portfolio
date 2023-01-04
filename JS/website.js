@@ -104,3 +104,22 @@ function showDivs(n) {
   //Display the first element
   x[slideIndex - 1].style.display = "block";
 }
+
+//JS code for the Footer
+//Importing div container for the contact info
+var scroller = document.getElementById("contact_info");
+
+//Import button
+const contact_btn = document.querySelector(".contact_btn button");
+
+contact_btn.addEventListener("click", (e) => {
+  if (document.getElementById("contact_info").className == "hide") {
+    document.getElementById("contact_info").className = "show";
+    //When the new content is displayed, scroll down into view automatically
+    scroller.scrollIntoView();
+  } else {
+    //The class name is "Show"
+    //We'll allow the user to hide it by pressing twice
+    document.getElementById("contact_info").className = "hide";
+  }
+});
