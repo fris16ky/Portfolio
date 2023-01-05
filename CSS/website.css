@@ -80,6 +80,7 @@ hr {
   margin-top: 15px;
   margin-bottom: 15px;
   width: 1000px;
+  background-color: black;
 }
 
 .mxgraph {
@@ -137,6 +138,10 @@ hr {
 #contact_info {
   text-align: center;
   background-color: navy;
+  color: white;
+}
+
+#contact_info p {
   color: white;
 }
 

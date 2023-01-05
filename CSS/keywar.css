@@ -113,6 +113,10 @@ p {
   color: white;
 }
 
+#contact_info p {
+  color: white;
+}
+
 /* For the Contact Info button, default is on hide (showing nothing) */
 .show {
   display: block;
