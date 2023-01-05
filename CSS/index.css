@@ -349,6 +349,7 @@ around the middle of each image */
   display: none;
 }
 
+/* Styling for my laptop */
 @media screen and (max-width: 1708px) {
   .learnMore {
     left: 0px;
