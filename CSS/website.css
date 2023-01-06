@@ -83,6 +83,14 @@ hr {
   background-color: black;
 }
 
+#caption1,
+#caption2,
+#caption3,
+#caption4,
+#caption5 {
+  color: navy;
+}
+
 .mxgraph {
   background-color: white;
   color: white;
