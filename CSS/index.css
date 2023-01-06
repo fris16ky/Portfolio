@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .navi {
   margin-bottom: 30px;
   position: fixed;
@@ -348,9 +352,6 @@ around the middle of each image */
 @media screen and (max-width: 1708px) {
   .learnMore {
     left: 0px;
-  }
-  body {
-    overflow-x: hidden;
   }
   .row_two {
     margin-right: 20px;
