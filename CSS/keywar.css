@@ -65,6 +65,16 @@ p {
   /* Adjusting how much screen the paragraph text takes up; there's probably a more efficient way to do this */
 }
 
+#caption1,
+#caption2,
+#caption3,
+#caption4,
+#caption5,
+#caption6,
+#caption7 {
+  color: white;
+}
+
 /* Styling of the footer */
 .footerContainer {
   margin: 0;

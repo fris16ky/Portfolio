@@ -4,6 +4,7 @@ var scroller = document.getElementById("contact_info");
 //Import button
 const contact_btn = document.querySelector(".contact_btn button");
 
+//Displaying the dropdown for Contact Info when "Contact Me" is clicked
 contact_btn.addEventListener("click", (e) => {
   if (document.getElementById("contact_info").className == "hide") {
     document.getElementById("contact_info").className = "show";
@@ -15,3 +16,5 @@ contact_btn.addEventListener("click", (e) => {
     document.getElementById("contact_info").className = "hide";
   }
 });
+
+//JavaScript for the Gif Slideshow
