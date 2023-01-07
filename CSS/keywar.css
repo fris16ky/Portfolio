@@ -48,6 +48,11 @@ body {
   /* Attempt to match the background color to the Keyboard Warriors logo, unsure if it's too distracting */
 }
 
+h1,
+h2 {
+  color: yellow;
+}
+
 p {
   font-weight: bold;
   margin: 8px;
