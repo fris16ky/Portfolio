@@ -9,11 +9,4 @@ which is already on the Project Page. Make this fluid if including it
 Give an example of Adding and Removing a reminder, maybe doing Delete All instead, since I showcase
 Delete One in the Description
 
-To-Do List (React): 
-Showcase VS project code
-Yarn web to start it up, then have it also load into a waiting Android Studio
-Showcase App (adding, checking, removing, image that pops up when all are removed)
-^Also for mobile app, alert box when you try to input nothing
-Talk about design choices (why this, probably not talk about Tesla tho)
-Walk thru Flowchart
-Maybe talk about future scope
+***Go through one JS file for months to show how I keep track of the most recent reminders + other stuff.
