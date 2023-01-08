@@ -26,6 +26,7 @@ var five = document.getElementById("caption5");
 var six = document.getElementById("caption6");
 var seven = document.getElementById("caption7");
 
+//Setting the slideIndex to the beginning and showing the Divs for the first slide
 var slideIndex = 1;
 showDivs(slideIndex);
 
@@ -34,8 +35,22 @@ function plusDivs(n) {
   showDivs((slideIndex += n));
 }
 
+//Changing the starting volume for the audio file
+var vid = document.getElementById("hard_music");
+vid.volume = 0.4;
+
+//Importing the final two gif images
+const gif_atk = document.getElementById("attack");
+const gif_ded = document.getElementById("defeat");
+
+//If the user clicks the left arrow
 function webbackward(n) {
   plusDivs(-1);
+
+  //Resetting the Attack and Defeated gif animations every time you click previous
+  gif_atk.src = gif_atk.getAttribute("src");
+  gif_ded.src = gif_ded.getAttribute("src");
+
   if (slideIndex != 1) {
     //If the current slide isn't the first, don't display the first caption
     one.style.display = "none";
@@ -76,14 +91,15 @@ function webbackward(n) {
   }
 }
 
+//If the user clicks the right arrow
 function webforward(n) {
   //Adding one to the sldies to move to the next image/gif
   plusDivs(+1);
-  //Trying to reset the gif animation everytime you change slide
-  // var img = document.getElementById("testingReanimate");
-  // var imageUrl = img.src;
-  // img.src = "";
-  // img.src = imageUrl;
+
+  //Resetting the Attack and Defeated gif animations every time you click next
+  gif_atk.src = gif_atk.getAttribute("src");
+  gif_ded.src = gif_ded.getAttribute("src");
+
   if (slideIndex != 1) {
     //If the current slide isn't the first, don't display the first caption
     one.style.display = "none";

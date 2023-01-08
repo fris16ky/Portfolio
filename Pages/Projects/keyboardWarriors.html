@@ -101,10 +101,10 @@
 
       <!-- Talk about how many different sprites and shit we have, plus show them
       I want to find the boss sprite, but it's not in drawable -->
-      <p style="margin-top: 10px">
+      <p style="margin-top: 10px; margin-bottom: 12px">
         Here is the audio file that plays when the user is in the Hard Mode:
       </p>
-      <audio controls loop>
+      <audio controls loop id="hard_music">
         <source src="../../Media/Audio/hardmode_music.mp3" type="audio/mpeg" />
         Your browser does not support the Audio element.
       </audio>
@@ -190,11 +190,11 @@
           src="https://raw.githubusercontent.com/fris16ky/KeyboardWarriors/master/app/src/main/res/drawable/reaper1death.gif"
           alt="Gif for enemy death animation"
           style="margin-left: auto; margin-right: auto"
-          id="testingReanimate"
+          id="defeat"
         />
         <div
           class="web-display-bottomleft web-container web-padding-16 web-black"
-          style="margin-top: -15px; margin-bottom: 8px; display: none"
+          style="margin-top: -10px; margin-bottom: 8px; display: none"
           id="caption6"
         >
           Reaper Death Animation
