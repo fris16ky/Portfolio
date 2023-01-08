@@ -2,6 +2,9 @@
 
 This is my Portfolio project, designed to aid my resume when applying to jobs.
 
+# Disclaimer
+Currently, this website has NOT been adjusted for Mobile viewers, so the styling is pretty horrid. I apologize, I'm currently working through my last semester of College, so I am not sure when I'll take the time to fix the mistakes. Thanks for your understanding. 
+
 # Inspiration
 
 I give a lot of the credit to my ideas to both http://www.ericwadkins.com/ and http://www.meganlandau.com/portfolio-1, just being able to look at their excellent designs was very helpful.
