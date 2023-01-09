@@ -320,7 +320,7 @@ around the middle of each image */
 
 /* Combining Contact Me and Resume + About Me hover turning the text color gold */
 .cntbtn:hover,
-#hoverFooter:hover {
+#hoverFooter:hover #hoverFooter2:hover {
   color: gold;
   font-weight: bold;
 }
