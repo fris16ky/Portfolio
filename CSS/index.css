@@ -237,19 +237,67 @@ around the middle of each image */
 }
 
 /* Learn More buttons for each Project */
-.learnMore {
+.learnMoreWeb {
   border-color: violet;
   background-color: violet;
-  margin-left: 0px;
   border-width: 10px;
   font-size: 15px;
   color: yellow;
   position: relative;
-  top: 25px;
-  right: 104px;
+  bottom: 113px;
+  left: 433px;
 }
 
-.learnMore:hover {
+.learnMoreTod {
+  border-color: violet;
+  background-color: violet;
+  border-width: 10px;
+  font-size: 15px;
+  color: yellow;
+  position: relative;
+  bottom: 150px;
+  left: 397px;
+}
+
+.learnMoreKeyb {
+  border-color: violet;
+  background-color: violet;
+  border-width: 10px;
+  font-size: 15px;
+  color: yellow;
+  position: relative;
+  bottom: 125px;
+  left: 422px;
+}
+
+.learnMoreSql {
+  border-color: violet;
+  background-color: violet;
+  border-width: 10px;
+  font-size: 15px;
+  color: yellow;
+  position: relative;
+  bottom: 164px;
+  left: 438px;
+}
+
+.learnMoreSys {
+  border-color: violet;
+  background-color: violet;
+  border-width: 10px;
+  font-size: 15px;
+  color: yellow;
+  position: relative;
+  bottom: 135px;
+  left: 437px;
+}
+
+/* Changing the colors when hovered to indicate the user can click the anchor tag */
+.learnMoreWeb:hover,
+.learnMoreTod:hover,
+.learnMoreKeyb:hover,
+.learnMoreSql:hover,
+.learnMoreSys:hover {
   border-color: blue;
   background-color: blue;
   color: white;
