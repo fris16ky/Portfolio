@@ -4,8 +4,10 @@
   margin: 0;
   padding: 0;
   overflow-y: hidden;
+  /* Removing the up/down scroll bar since this content is short */
 }
 
+/* Navigation Styling */
 .navi ul {
   list-style-type: none;
   margin: 0;
@@ -43,10 +45,12 @@
   background-color: darkorchid;
 }
 
+/* Background-color styling to try and mimic Microsoft SQL Server's colors */
 body {
   background-image: linear-gradient(to right, white, maroon);
 }
 
+/* Content styling */
 p {
   color: black;
   font-weight: bold;

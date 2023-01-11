@@ -4,6 +4,7 @@ var scroller = document.getElementById("contact_info");
 //Import button
 const contact_btn = document.querySelector(".contact_btn button");
 
+//Display the content if "Contact Me" is clicked
 contact_btn.addEventListener("click", (e) => {
   if (document.getElementById("contact_info").className == "hide") {
     document.getElementById("contact_info").className = "show";
