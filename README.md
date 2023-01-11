@@ -3,7 +3,7 @@
 This is my Portfolio project, designed to aid my resume when applying to jobs.
 
 # Validation
-Every page of this Portfolio has ran through and corrected as per suggestions from https://validator.w3.org/nu/. 
+Every page of this Portfolio has ran through and corrected as per suggestions from https://validator.w3.org/. 
 
 # Disclaimer
 Currently, this website has NOT been adjusted for Mobile viewers, so the styling is pretty horrid. I apologize, I'm currently working through my last semester of College, so I am not sure when I'll take the time to fix the mistakes. Thanks for your understanding. 
