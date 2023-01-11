@@ -22,6 +22,7 @@
     <link rel="icon" href="../../Media/Images/L_favicon.png" type="image/png" />
   </head>
   <body>
+    <!-- Navigation -->
     <nav class="navi">
       <ul>
         <li><a href="../relatedCourses.html">Important Coursework</a></li>
@@ -33,10 +34,11 @@
       </ul>
     </nav>
 
-    <!-- Hmm, is it bad that this is the only project with a logo? It's kind of out of place comparatively. -->
+    <!-- Content Beginning -->
     <div class="KeyWarContainer">
       <h1 style="margin-top: 10px">Keyboard Warriors</h1>
       <br />
+      <!-- Demo with YouTube embed -->
       <h2>Project Demo:</h2>
       <iframe
         style="margin-top: 5px; margin-bottom: 5px; border: 0"
@@ -53,6 +55,7 @@
           >Click here to view the Repository on GitHub</a
         >
       </p>
+      <!-- File dump, in case of intrigue -->
       <p>
         Click here to view our
         <a href="../../Media/Files/Project_Report_Final.pdf"
@@ -71,17 +74,19 @@
         alt="Keyboard Warriors Logo"
       />
       <br />
+      <!-- Project Requirements -->
       <h2>Project Requirements</h2>
       <p>
-        Our general task was to find a group and to separate into three roles;
+        Our general task was to find a group and separate it into three roles;
         Product Owner, Scrum Master, and the Development Team. I was a part of
         the Development Team along with two others, meaning we were in charge of
         nearly everything involving our application. Our main task was creating
-        any playable application, but we also had to keep track of our progress,
+        a playable application, but we also had to keep track of our progress,
         which we did via GitHub and
         <a href="https://monday.com/">Monday</a>.
       </p>
       <br />
+      <!-- Project Vision/Background -->
       <h2>Project Vision</h2>
       <p>
         I was directly involved with choosing our project idea, where I took
@@ -95,38 +100,38 @@
         shifted our vision to the crucial skill that is typing on your phone.
       </p>
       <br />
+      <!-- Project Description with files -->
       <h2>Project Description</h2>
       <p>
-        Keyboard Warriors contains four main levels; a Tutorial, and Easy,
-        Medium, and Hard Mode. The user's goal is to defeat all 25 enemies in a
-        level (aside from the tutorial, which holds different rules) by typing
-        out the displayed words correctly. Each difficulty has their own quirks,
-        with Easy having 3-4 letter words and 10 seconds to type, Medium with 7,
-        and Hard with 5 seconds and more complex words. If the user incorrectly
-        submits a word, or runs out of time, three separate times, the game is
-        over. Players start with 3 hearts, and each time a blemish occurs, they
-        lose one.
+        Keyboard Warriors contains four main levels; Tutorial, Easy, Medium, and
+        Hard Mode. The user's goal is to defeat all 25 enemies in a level (aside
+        from the tutorial, which holds different rules) by typing out the
+        displayed words correctly. Each difficulty has its quirks, with Easy
+        having 3-4 letter words and 10 seconds to type, Medium with 5-7 letter
+        words and 7 seconds, and Hard with 5 seconds and more complex words. If
+        the user incorrectly submits a word or runs out of time, three separate
+        times, the game is over. Players start with 3 hearts, and each time a
+        blemish occurs, they lose one.
       </p>
       <p>
         Normal enemies can be taken out with one correct word, but after 25 have
         been defeated, the user is transported to the Boss Battle. The Boss has
-        it's own unique sprite and requires 5, 7, and 10 correct words,
+        its own unique sprite and requires 5, 7, and 10 correct words,
         respectively, to defeat it.
       </p>
-      <!-- Display the Boss sprite and maybe it's health bar here! -->
 
-      <!-- Talk about how many different sprites and shit we have, plus show them
-      I want to find the boss sprite, but it's not in drawable -->
       <p style="margin-top: 10px; margin-bottom: 12px">
-        Here is the audio file that plays when the user is in the Hard Mode:
+        Here is the audio file that plays when the user is in Hard Mode:
       </p>
+      <!-- Audio file for Hard music; ~23 seconds long -->
       <audio controls loop id="hard_music">
         <source src="../../Media/Audio/hardmode_music.mp3" type="audio/mpeg" />
         Your browser does not support the Audio element.
       </audio>
       <br />
+      <!-- Slideshow Beginning (7 images) -->
       <p>
-        The following slideshow contains the core elements from our game; the
+        The following slideshow contains the core elements of our game; the
         player health system and an example of our enemy sprites.
       </p>
       <div class="slideshow">
@@ -210,6 +215,7 @@
         >
           Reaper Death Animation
         </div>
+        <!-- The Death and Attack Animations are now replayable by scrolling back/forwards -->
         <img
           class="web_slideshow"
           src="https://raw.githubusercontent.com/fris16ky/KeyboardWarriors/master/app/src/main/res/drawable/reaper1attack.gif"
@@ -231,7 +237,7 @@
         >
           &#10094;
         </button>
-        <!-- The & codes are for the left and right arrows, respectively -->
+        <!-- The &# codes are for the left and right arrows, respectively -->
         <button class="web-button web-display-right" onclick="webforward()">
           &#10095;
         </button>
@@ -240,6 +246,7 @@
       <br /><br />
     </div>
 
+    <!-- Footer -->
     <footer>
       <div class="footerContainer">
         <div class="footer">
@@ -293,7 +300,7 @@
       </div>
       <div id="contact_info" class="hide">
         <!-- This will contain my contact information. This will be hidden by default, and will display
-      when the "Contact Me" button is pressed -->
+        when the "Contact Me" button is pressed -->
         <h2 style="color: white">Contact Me</h2>
         <p style="font-size: 14pt">
           Email:

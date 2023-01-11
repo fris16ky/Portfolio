@@ -96,7 +96,7 @@ function webforward(n) {
   //Adding one to the sldies to move to the next image/gif
   plusDivs(+1);
 
-  //Resetting the Attack and Defeated gif animations every time you click next
+  //Resetting the Attack and Defeated gif animations every time you click next/forward
   gif_atk.src = gif_atk.getAttribute("src");
   gif_ded.src = gif_ded.getAttribute("src");
 

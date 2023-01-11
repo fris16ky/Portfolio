@@ -5,6 +5,7 @@
   padding: 0;
 }
 
+/* Navigation Styling */
 .navi ul {
   list-style-type: none;
   margin: 0;
@@ -48,6 +49,7 @@ body {
   /* Attempt to match the background color to the Keyboard Warriors logo, unsure if it's too distracting */
 }
 
+/* Content styling */
 h1,
 h2 {
   color: yellow;
@@ -65,6 +67,7 @@ p {
   /* Adjusting how much screen the paragraph text takes up; there's probably a more efficient way to do this */
 }
 
+/* Caption coloring */
 #caption1,
 #caption2,
 #caption3,
