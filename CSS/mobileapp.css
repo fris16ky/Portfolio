@@ -5,6 +5,7 @@
   padding: 0;
 }
 
+/* Navigation Styling */
 .navi {
   margin-bottom: 10px;
 }
@@ -46,6 +47,7 @@
   background-color: darkorchid;
 }
 
+/* Content styling */
 p {
   margin-left: 240px;
   margin-right: 240px;
@@ -102,7 +104,8 @@ hr {
 
 /* Combining Contact Me and Resume + About Me hover turning the text color gold */
 .cntbtn:hover,
-#hoverFooter:hover #hoverFooter2:hover {
+#hoverFooter:hover,
+#hoverFooter2:hover {
   color: gold;
   font-weight: bold;
 }
