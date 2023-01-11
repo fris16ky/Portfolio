@@ -6,6 +6,14 @@
 }
 
 /* Navigation Styling */
+.navi {
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  margin-bottom: 30px;
+  top: 0px;
+}
+
 .navi ul {
   list-style-type: none;
   margin: 0;

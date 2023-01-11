@@ -8,11 +8,15 @@
   padding: 0;
 }
 
-body {
-  background-color: lightblue;
+/* Navigation (top) styling */
+.navi {
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  margin-bottom: 30px;
+  top: 0px;
 }
 
-/* Navigation (top) styling */
 .navi ul {
   list-style-type: none;
   margin: 0;
@@ -51,6 +55,10 @@ body {
 }
 
 /* Body styling */
+body {
+  background-color: lightblue;
+}
+
 h2 {
   color: magenta;
 }
