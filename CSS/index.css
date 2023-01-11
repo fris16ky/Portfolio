@@ -4,10 +4,12 @@
   padding: 0;
 }
 
+/* Getting rid of side-scroll bar */
 body {
   overflow-x: hidden;
 }
 
+/* Navigation style (heading) */
 .navi {
   margin-bottom: 30px;
   position: fixed;
@@ -78,7 +80,6 @@ Without this, the Learn More buttons were displaying over it and blocking some o
   font-weight: bold;
   margin-bottom: 2px;
 }
-/* No matter what, the space between the pic and the text isn't changing. For now, just changing the padding for the image */
 
 .collegeInfo {
   font-size: 15px;
@@ -103,7 +104,6 @@ Without this, the Learn More buttons were displaying over it and blocking some o
   text-align: left;
   color: purple;
   font-weight: 500;
-  /* width: 100% was here */
 }
 
 .project_beginning {
@@ -144,6 +144,15 @@ the href (deadzone) */
   flex-direction: row;
 }
 
+.last_project {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: -40px;
+  padding-left: 54px;
+}
+
 /* These adjustments are for the Project Descriptions - not the Learn More buttons 
 We are changing the positioning of the text to be relative, and moving it down to
 around the middle of each image */
@@ -180,15 +189,6 @@ around the middle of each image */
   top: 75px;
   margin-bottom: 35px;
   margin-right: 100px;
-}
-
-.last_project {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  margin-top: -40px;
-  padding-left: 54px;
 }
 
 /* These are the images for each of the 5 projects */
@@ -236,7 +236,7 @@ around the middle of each image */
   filter: brightness(40%);
 }
 
-/* Learn More buttons for each Project */
+/* Unique Learn More buttons for each Project */
 .learnMoreWeb {
   border-color: violet;
   background-color: violet;
@@ -320,7 +320,6 @@ around the middle of each image */
 
 .row_one {
   column-count: 3;
-  /* https://www.w3schools.com/css/css3_multiple_columns.asp for column info. Can set column-gap and such */
   text-align: center;
 }
 
@@ -368,7 +367,8 @@ around the middle of each image */
 
 /* Combining Contact Me and Resume + About Me hover turning the text color gold */
 .cntbtn:hover,
-#hoverFooter:hover #hoverFooter2:hover {
+#hoverFooter:hover,
+#hoverFooter2:hover {
   color: gold;
   font-weight: bold;
 }
