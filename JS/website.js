@@ -1,5 +1,4 @@
 //JavaScript file for my 3150 Website Project Page
-
 var one = document.getElementById("caption1");
 var two = document.getElementById("caption2");
 var three = document.getElementById("caption3");
@@ -15,6 +14,7 @@ function plusDivs(n) {
   showDivs((slideIndex += n));
 }
 
+//If the user clicks the back arrow
 function webbackward(n) {
   plusDivs(-1);
   if (slideIndex != 1) {
@@ -49,6 +49,7 @@ function webbackward(n) {
   }
 }
 
+//If the user clicks the forward arrow
 function webforward(n) {
   plusDivs(+1);
   if (slideIndex != 1) {
@@ -106,12 +107,14 @@ function showDivs(n) {
 }
 
 //JS code for the Footer
+
 //Importing div container for the contact info
 var scroller = document.getElementById("contact_info");
 
 //Import button
 const contact_btn = document.querySelector(".contact_btn button");
 
+//When "Contact Me" is clicked
 contact_btn.addEventListener("click", (e) => {
   if (document.getElementById("contact_info").className == "hide") {
     document.getElementById("contact_info").className = "show";
