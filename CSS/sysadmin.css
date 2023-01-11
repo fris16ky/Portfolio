@@ -3,8 +3,10 @@
   text-align: center;
   margin: 0;
   padding: 0;
+  overflow-y: hidden;
 }
 
+/* Navigation Styling */
 .navi {
   margin-bottom: 10px;
 }
@@ -46,11 +48,12 @@
   background-color: darkorchid;
 }
 
+/* Background color to match Garry's Mod's blue logo */
 body {
   background-color: rgb(17, 148, 240, 0.8);
 }
-/* Garry's Mod logo blue */
 
+/* Content Styling */
 h1,
 h2 {
   color: gold;
