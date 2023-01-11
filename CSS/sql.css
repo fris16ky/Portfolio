@@ -3,6 +3,7 @@
   text-align: center;
   margin: 0;
   padding: 0;
+  overflow-y: hidden;
 }
 
 .navi ul {
@@ -94,7 +95,8 @@ h2 {
 
 /* Combining Contact Me and Resume + About Me hover turning the text color gold */
 .cntbtn:hover,
-#hoverFooter:hover {
+#hoverFooter:hover,
+#hoverFooter2:hover {
   color: gold;
   font-weight: bold;
 }
