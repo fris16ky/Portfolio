@@ -131,3 +131,20 @@ h2 {
 .hide {
   display: none;
 }
+
+/* Styling for my laptop */
+@media screen and (max-width: 1708px) {
+  * {
+    overflow-y: visible;
+  }
+  .navi {
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    margin-bottom: 30px;
+    top: 0px;
+  }
+  .sqlContainer {
+    margin-top: 75px;
+  }
+}

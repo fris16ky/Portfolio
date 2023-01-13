@@ -407,4 +407,13 @@ around the middle of each image */
   .row_three {
     margin-right: 20px;
   }
+
+  .learnMoreTod,
+  .learnMoreSql,
+  .learnMoreSys {
+    margin-top: 10px;
+  }
+  .sys_desc {
+    margin-top: -5px;
+  }
 }

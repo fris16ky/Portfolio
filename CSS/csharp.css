@@ -1,0 +1,61 @@
+* {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation Styling */
+.navi {
+  width: 100%;
+  position: fixed;
+  z-index: 10000;
+  margin-bottom: 30px;
+  top: 0px;
+}
+
+.navi ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: navy;
+}
+
+.navi li {
+  float: right;
+}
+
+.navi li a {
+  display: block;
+  background-color: navy;
+  color: white;
+  padding: 25px 20px;
+  text-decoration: none;
+}
+
+.navi li a:hover {
+  background-color: crimson;
+  transition: 0.3s ease;
+}
+
+.navi .name {
+  float: left;
+}
+
+.navi .name a {
+  color: gold;
+}
+
+.navi .name a:hover {
+  background-color: darkorchid;
+}
+
+h1,
+h3 {
+  color: navy;
+}
+
+h2 {
+  color: goldenrod;
+}
