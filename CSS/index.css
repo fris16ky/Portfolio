@@ -73,6 +73,10 @@ Without this, the Learn More buttons were displaying over it and blocking some o
   padding-right: 20px;
 }
 
+.info {
+  margin-top: 10px;
+}
+
 .aboutMeName {
   margin-left: 20px;
   padding-left: 20px;
@@ -407,13 +411,21 @@ around the middle of each image */
   .row_three {
     margin-right: 20px;
   }
-
+  /* Adjusting LearnMore buttons for laptops; moving them down to 
+     mirror how they look on Desktop/bigger screens */
   .learnMoreTod,
   .learnMoreSql,
   .learnMoreSys {
     margin-top: 10px;
   }
+  /* The sysadmin description was lower on laptop than my preferred height */
   .sys_desc {
     margin-top: -5px;
+  }
+}
+/* Moving down the AboutMe text for even smaller laptops like my Dad's */
+@media screen and (max-width: 1537px) {
+  .info {
+    margin-top: 0px;
   }
 }
