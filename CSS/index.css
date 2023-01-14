@@ -62,7 +62,7 @@ Without this, the Learn More buttons were displaying over it and blocking some o
 /* Blending the colors of the current and next container/sections, hoping this looks more seamless and smoother */
 .AboutMeContainer {
   background-image: linear-gradient(rgb(211, 211, 211, 65%) 86%, lightblue);
-  margin-top: 5px;
+  margin-top: 50px;
   width: 100%;
 }
 
@@ -93,6 +93,18 @@ Without this, the Learn More buttons were displaying over it and blocking some o
 .background {
   font-weight: 500;
   margin-right: 555px;
+  margin-top: 8px;
+}
+
+.bgnd2 {
+  margin-top: 15px;
+  margin-right: 555px;
+}
+
+.interests {
+  margin-top: 15px;
+  margin-right: 555px;
+  margin-bottom: 15px;
 }
 
 .wrapup {
@@ -427,5 +439,53 @@ around the middle of each image */
 @media screen and (max-width: 1537px) {
   .info {
     margin-top: 0px;
+  }
+}
+
+/* Attempting Styling for Mobile Phones */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  * {
+    /* width: 100%; */
+  }
+  .body {
+    background-size: 100% 100%;
+  }
+  .AboutMeContainer {
+    margin-top: 0px;
+    margin-bottom: -500px;
+  }
+  .pic_with_links {
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+  }
+  .pic_with_links img {
+    height: 1000px;
+  }
+  .info h3 {
+    margin-top: -60px;
+    margin-bottom: -8px;
+    font-size: 8pt;
+  }
+  .aboutMeName,
+  .collegeInfo {
+    font-size: 8pt;
+  }
+  .aboutMeName {
+    margin-bottom: -8px;
+  }
+  .info,
+  .background {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 8pt;
+  }
+
+  .bgnd2,
+  .interests {
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2px;
   }
 }
