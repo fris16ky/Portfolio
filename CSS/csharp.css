@@ -53,15 +53,25 @@
 
 /* Body Styling */
 .ProjectsContainer {
-  margin-right: 200px;
-  margin-left: 200px;
+  margin-right: 250px;
+  margin-left: 250px;
 }
+/* Should I make these uniform with the other projects? Probably right */
+/* Looks like margin and padding of 240 each side */
 
-h1,
-h3 {
+h1 {
   color: navy;
 }
 
 h2 {
   color: goldenrod;
+}
+
+h3 {
+  color: navy;
+  margin-bottom: 5px;
+}
+
+.multi {
+  margin-top: 5px;
 }
