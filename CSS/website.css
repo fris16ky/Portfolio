@@ -70,10 +70,10 @@ h2 {
 }
 
 p {
-  margin-left: 240px;
-  margin-right: 240px;
-  padding-right: 240px;
-  padding-left: 240px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: auto;
+  padding-left: auto;
   font-weight: 530;
   color: rgb(125, 6, 189, 80%);
 }
@@ -89,7 +89,7 @@ hr {
   margin-right: auto;
   margin-top: 15px;
   margin-bottom: 15px;
-  width: 1000px;
+  width: auto;
   background-color: black;
 }
 
@@ -128,7 +128,11 @@ hr {
 
 .footer li {
   float: left;
-  padding-left: 30px;
+  padding-left: 70px;
+}
+
+#help {
+  margin-right: 75px;
 }
 
 /* Styling the button - getting rid of the border and making it blend with the container colors */
@@ -149,6 +153,7 @@ hr {
 
 .footer li a {
   color: white;
+  padding-left: 70px;
 }
 
 .footer a i:hover {
@@ -172,4 +177,20 @@ hr {
 
 .hide {
   display: none;
+}
+
+/* Styling for small laptops and split-screening */
+@media screen and (max-width: 1200px) {
+  .footer li {
+    margin: 0;
+    padding: 0;
+    margin-left: 20px;
+  }
+  .footer li a {
+    margin-left: 10px;
+    padding: 0;
+  }
+  #help {
+    margin-right: 25px;
+  }
 }
