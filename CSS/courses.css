@@ -59,6 +59,12 @@
   float: left;
 }
 
+#GH_image {
+  width: 700;
+  height: 400;
+  margin-bottom: 10px;
+}
+
 .coursesContainer ul {
   margin-left: 720px;
 }
@@ -70,4 +76,11 @@
 /* Denote my current classes differently than my previous ones */
 .WIP {
   color: red;
+}
+
+@media screen and (max-width: 1608px) {
+  img {
+    max-width: 400px;
+    max-height: 300px;
+  }
 }

@@ -468,6 +468,9 @@ around the middle of each image */
     width: 200px;
     height: 200px;
   }
+  .fourth_project {
+    margin-top: -50px;
+  }
   .web_desc,
   .app_desc,
   .sql_desc,
