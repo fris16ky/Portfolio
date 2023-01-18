@@ -51,6 +51,12 @@
   background-color: darkorchid;
 }
 
+/* Body Styling */
+.ProjectsContainer {
+  margin-right: 200px;
+  margin-left: 200px;
+}
+
 h1,
 h3 {
   color: navy;
