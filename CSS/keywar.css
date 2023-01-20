@@ -68,10 +68,10 @@ p {
   margin: 8px;
   color: navy;
   font-size: 15pt;
-  margin-left: 240px;
-  margin-right: 240px;
-  padding-right: 240px;
-  padding-left: 240px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: auto;
+  padding-left: auto;
   /* Adjusting how much screen the paragraph text takes up; there's probably a more efficient way to do this */
 }
 
@@ -106,7 +106,11 @@ p {
 
 .footer li {
   float: left;
-  padding-left: 30px;
+  padding-left: 70px;
+}
+
+#help {
+  margin-right: 75px;
 }
 
 /* Styling the button - getting rid of the border and making it blend with the container colors */
@@ -120,14 +124,14 @@ p {
 
 /* Combining Contact Me and Resume + About Me hover turning the text color gold */
 .cntbtn:hover,
-#hoverFooter:hover,
-#hoverFooter2:hover {
+#hoverFooter:hover {
   color: gold;
   font-weight: bold;
 }
 
 .footer li a {
   color: white;
+  padding-left: 70px;
 }
 
 .footer a i:hover {
@@ -151,4 +155,20 @@ p {
 
 .hide {
   display: none;
+}
+
+/* Styling for small laptops and split-screening */
+@media screen and (max-width: 1200px) {
+  .footer li {
+    margin: 0;
+    padding: 0;
+    margin-left: 20px;
+  }
+  .footer li a {
+    margin-left: 10px;
+    padding: 0;
+  }
+  #help {
+    margin-right: 25px;
+  }
 }

@@ -80,9 +80,10 @@ Without this, the Learn More buttons were displaying over it and blocking some o
 .aboutMeName {
   margin-left: 20px;
   padding-left: 20px;
-  font-size: 18px;
+  font-size: 25px;
   font-weight: bold;
   margin-bottom: 2px;
+  color: gold;
 }
 
 .collegeInfo {
@@ -90,20 +91,21 @@ Without this, the Learn More buttons were displaying over it and blocking some o
   font-weight: bold;
 }
 
+.text {
+  margin-right: 500px;
+}
+
 .background {
   font-weight: 500;
-  margin-right: 555px;
   margin-top: 8px;
 }
 
 .bgnd2 {
   margin-top: 15px;
-  margin-right: 555px;
 }
 
 .interests {
   margin-top: 15px;
-  margin-right: 555px;
   margin-bottom: 15px;
 }
 
@@ -325,6 +327,7 @@ around the middle of each image */
   background-color: rgb(204, 204, 255);
   padding-left: 10px;
   padding-right: 10px;
+  padding-bottom: 10px;
   color: black;
   font-size: 13pt;
   width: 100%;
@@ -439,6 +442,59 @@ around the middle of each image */
 @media screen and (max-width: 1537px) {
   .info {
     margin-top: 0px;
+  }
+}
+
+/* Styling for SMALL laptops or split-screen tabs */
+@media screen and (max-width: 1200px) {
+  .text {
+    margin-right: 0px;
+  }
+  .pic_with_links {
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+  }
+  .first_project,
+  .third_project {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .first_project img,
+  .second_project img,
+  .third_project img,
+  .fourth_project img,
+  .fifth_project img {
+    width: 200px;
+    height: 200px;
+  }
+  .fourth_project {
+    margin-top: -50px;
+  }
+  .web_desc,
+  .app_desc,
+  .sql_desc,
+  .sys_desc,
+  .keyb_desc {
+    top: 30px;
+    margin-right: 0px;
+  }
+  .learnMoreWeb {
+    bottom: 100px;
+    left: 230px;
+  }
+  .learnMoreTod {
+    left: 265px;
+    bottom: 130px;
+  }
+  .learnMoreKeyb {
+    left: 245px;
+  }
+  .learnMoreSql {
+    left: 237px;
+  }
+  .learnMoreSys {
+    left: 237px;
   }
 }
 
