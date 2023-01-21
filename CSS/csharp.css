@@ -55,9 +55,8 @@
 .ProjectsContainer {
   margin-right: 250px;
   margin-left: 250px;
+  /* Consider making these auto */
 }
-/* Should I make these uniform with the other projects? Probably right */
-/* Looks like margin and padding of 240 each side */
 
 h1 {
   color: navy;
@@ -74,4 +73,15 @@ h3 {
 
 .multi {
   margin-top: 5px;
+}
+
+/* Style for the line breaks */
+hr {
+  border: 1px solid;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: auto;
+  background-color: black;
 }
