@@ -82,6 +82,8 @@ hr {
   margin-right: auto;
   margin-top: 15px;
   margin-bottom: 15px;
-  width: auto;
+  width: 82%;
   background-color: black;
+  padding-left: 50px;
+  padding-right: 50px;
 }

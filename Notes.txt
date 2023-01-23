@@ -36,3 +36,9 @@ Otherwise, everything is gucci enough
 I guess I could make everything relative, and shift the text under the image, and then move the 
 classes over. look this shizz up
 https://stackoverflow.com/questions/1225130/how-can-i-align-text-directly-beneath-an-image
+
+Recent Portfolio notes: 
+When mobile screen is detected, change initial scale of meta (very top) to 0.25
+Simon also said to make my name bigger (header and the About Me)
+Maybe make margins auto for Csharp
+^^Figure out a Project pic too for the main page
