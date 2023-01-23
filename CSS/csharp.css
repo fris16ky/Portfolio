@@ -53,9 +53,11 @@
 
 /* Body Styling */
 .ProjectsContainer {
-  margin-right: 250px;
-  margin-left: 250px;
-  /* Consider making these auto */
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+  /* Making sure that the text is far enough away from the edges */
 }
 
 h1 {
