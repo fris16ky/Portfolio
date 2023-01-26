@@ -79,13 +79,18 @@ h3 {
 
 /* Style for the line breaks */
 hr {
-  border: 1px solid;
+  border: 1.4px solid;
   margin-left: auto;
   margin-right: auto;
   margin-top: 15px;
   margin-bottom: 15px;
   width: 82%;
   background-color: black;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+p {
   padding-left: 50px;
   padding-right: 50px;
 }
