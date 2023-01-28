@@ -161,6 +161,11 @@ the href (deadzone) */
   flex-direction: row;
 }
 
+.sixth_project {
+  display: flex;
+  flex-direction: row;
+}
+
 /* These adjustments are for the Project Descriptions - not the Learn More buttons 
 We are changing the positioning of the text to be relative, and moving it down to
 around the middle of each image */
@@ -197,6 +202,12 @@ around the middle of each image */
   top: 75px;
   margin-bottom: 35px;
   margin-right: 100px;
+}
+
+.csharp_desc {
+  position: relative;
+  top: 90px;
+  margin-bottom: 70px;
 }
 
 /* These are the images for each of the 5 projects */
@@ -241,6 +252,10 @@ around the middle of each image */
 }
 
 #sys_preview:hover {
+  filter: brightness(40%);
+}
+
+#csharp_preview:hover {
   filter: brightness(40%);
 }
 
@@ -300,12 +315,24 @@ around the middle of each image */
   left: 437px;
 }
 
+.learnMoreCsharp {
+  border-color: violet;
+  background-color: violet;
+  border-width: 10px;
+  font-size: 15px;
+  color: yellow;
+  position: relative;
+  bottom: 156px;
+  left: 360px;
+}
+
 /* Changing the colors when hovered to indicate the user can click the anchor tag */
 .learnMoreWeb:hover,
 .learnMoreTod:hover,
 .learnMoreKeyb:hover,
 .learnMoreSql:hover,
-.learnMoreSys:hover {
+.learnMoreSys:hover,
+.learnMoreCsharp:hover {
   border-color: blue;
   background-color: blue;
   color: white;
