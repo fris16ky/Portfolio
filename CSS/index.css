@@ -161,15 +161,6 @@ the href (deadzone) */
   flex-direction: row;
 }
 
-.last_project {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  margin-top: -40px;
-  padding-left: 54px;
-}
-
 /* These adjustments are for the Project Descriptions - not the Learn More buttons 
 We are changing the positioning of the text to be relative, and moving it down to
 around the middle of each image */
