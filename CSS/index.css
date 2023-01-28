@@ -474,7 +474,9 @@ around the middle of each image */
     float: left;
   }
   .first_project,
-  .third_project {
+  .third_project,
+  .fifth_project,
+  .sixth_project {
     margin-left: auto;
     margin-right: auto;
   }
@@ -486,6 +488,11 @@ around the middle of each image */
     width: 200px;
     height: 200px;
   }
+  .sixth_project img {
+    margin-left: 0;
+    width: 150px;
+    height: 150px;
+  }
   .fourth_project {
     margin-top: -50px;
   }
@@ -493,7 +500,8 @@ around the middle of each image */
   .app_desc,
   .sql_desc,
   .sys_desc,
-  .keyb_desc {
+  .keyb_desc,
+  .csharp_desc {
     top: 30px;
     margin-right: 0px;
   }
@@ -507,12 +515,18 @@ around the middle of each image */
   }
   .learnMoreKeyb {
     left: 245px;
+    bottom: 111px;
   }
   .learnMoreSql {
     left: 237px;
   }
   .learnMoreSys {
     left: 237px;
+    bottom: 120px;
+  }
+  .learnMoreCsharp {
+    left: 260px;
+    bottom: 80px;
   }
 }
 
