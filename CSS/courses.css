@@ -78,20 +78,25 @@
   color: red;
 }
 
+/* Adjusting styling for smaller screens - designed for split screen from my laptop. 
+The idea is to have the GitHub image and text in the center above everything, then the list
+and description of my courses beneath it. */
+/* With the minimal space it may be better to remove the image, but I compromised to move it up top
+to not take up as much room */
 @media screen and (max-width: 1608px) {
-  img {
-    max-width: 40%;
-    height: auto;
-    margin: auto;
-  }
   .img-with-text {
     vertical-align: top;
     display: inline-block;
     text-align: center;
     margin-top: 0px;
     margin-left: 100px;
-    margin-right: 200px;
+    margin-right: 400px;
     margin-bottom: 15px;
+  }
+  img {
+    max-width: 40%;
+    height: auto;
+    margin: auto;
   }
   .github_Text {
     margin: auto;
@@ -102,7 +107,6 @@
   .coursesContainer ul {
     margin: 0;
   }
-  /* Resetting everything. Maybe put GitHub at the top, with the text below? */
   .courses {
     margin: 0;
     text-align: center;
@@ -112,17 +116,4 @@
     margin-left: 130px;
     margin-bottom: 25px;
   }
-  /* .coursesContainer ul {
-    margin-left: 400px;
-  }
-  .coursesContainer h1 {
-    position: relative;
-    right: 300px;
-  }
-  #courses_Text {
-    position: relative;
-    right: 300px;
-  } */
-  /* Scrap all of this. Try to make the Major-Related Courses
-  it's own vertical block? */
 }
