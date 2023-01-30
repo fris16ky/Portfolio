@@ -36,124 +36,129 @@
             style="margin-bottom: 10px"
         /></a>
         <br />
-        <p style="margin-left: 164px; color: darkblue; font-weight: bold">
+        <p class="github_Text">
           Click on this icon to view my GitHub repository page! <br />I have
           projects in HTML, Java, and JavaScript.
         </p>
       </div>
-      <h1 style="margin-bottom: 4px; color: blue">Major-Related Courses</h1>
-      <br />
-      <p>
-        Upon completion of my winter classes, I will have 137 applied credits
-        out of the 128 required, <br />with 16-19 courses that were honors
-        eligible; depending on the results of my winter classes.
-      </p>
-      <br />
-      <!-- List of Classes -->
-      <div class="classList">
-        <ul>
-          <li>PHY 1100: General Physics Lab 1</li>
-          <li>
-            EGR 1400: Computer Problem Solving
-            <!-- I initially used the <nobr> tags to have a paragraph tag-esq, but without the new line break. 
+      <div class="courses">
+        <h1 style="margin-bottom: 4px; color: blue">Major-Related Courses</h1>
+        <br />
+        <p id="courses_Text">
+          Upon completion of my winter classes, I will have 137 applied credits
+          out of the 128 required, <br />with 16-19 courses that were honors
+          eligible; depending on the results of my winter classes.
+        </p>
+        <br />
+        <!-- List of Classes -->
+        <div class="classList">
+          <ul>
+            <li>PHY 1100: General Physics Lab 1</li>
+            <li>
+              EGR 1400: Computer Problem Solving
+              <!-- I initially used the <nobr> tags to have a paragraph tag-esq, but without the new line break. 
           But, for validator.w3, nobr tags cannot be children under <li> tags. So, I switched to spans whilst
           using the white-space: nowrap style, which results in the same effect -->
-            <span style="white-space: nowrap; color: navy; font-weight: bold"
-              >(C#)</span
-            >
-          </li>
-          <li>
-            CSI 1420: Introduction to C Programming & Unix
-            <span style="white-space: nowrap; color: navy; font-weight: bold"
-              >(C)</span
-            >
-          </li>
-          <li>PHY 1510: Introductory Physics 1</li>
-          <li>MTH 1554 and 1555: Calculus 1 and 2; AP Credit</li>
-          <li>PHY 1620: Fundamentals of Physics 2</li>
-          <li>STA 2226: Applied Probability and Statistics</li>
-          <li>CSI 2300: Object-Oriented Computing</li>
-          <li>
-            CSI 2310: Data Structures
-            <span style="white-space: nowrap; color: navy; font-weight: bold"
-              >(Java)</span
-            >
-          </li>
-          <li>CSI 2340: Ruby for Web Developers</li>
-          <li>EGR 2400: Introduction to Electrical and Computer Engineering</li>
-          <li>
-            CSI 2470: Introduction to Computer Networks
-            <span style="white-space: nowrap; color: navy; font-weight: bold"
-              >(Java)</span
-            >
-          </li>
-          <li>APM 2663: Discrete Mathematics</li>
-          <li>MTH 2775: Linear Algebra</li>
-          <li>
-            <a href="./Projects/keyboardWarriors.html"
-              >CSI 2999: Sophomore Project</a
-            >
-            <span style="white-space: nowrap; color: navy; font-weight: bold"
-              >(Java)</span
-            >
-          </li>
-          <li>
-            <a href="./Projects/csi3150Website.html"
-              >CSI 3150: Web and Mobile Systems</a
-            >
-            <span style="white-space: nowrap; color: navy; font-weight: bold"
-              >(HTML, CSS, JS, ReactJS)</span
-            >
-          </li>
-          <li>CSI 3370: Software Engineering and Practice</li>
-          <li>CSI 3430: Theory of Computation</li>
-          <li>
-            <a href="./Projects/microSql.html"
-              >CSI 3450: Database Design and Implementation</a
-            >
-            <span style="white-space: nowrap; color: navy; font-weight: bold"
-              >(Microsoft SQL Server)</span
-            >
-          </li>
-          <li>
-            CSI 3610: Design and Analysis of Algorithms
-            <span style="white-space: nowrap; color: navy; font-weight: bold"
-              >(Python)</span
-            >
-          </li>
-          <li>
-            CSI 3640: Computer Organization
-            <span style="white-space: nowrap; color: navy; font-weight: bold"
-              >(Assembly)</span
-            >
-          </li>
-          <li>
-            <a href="./Projects/sysAdminProject.html"
-              >CSI 3660: Systems Administration</a
-            >
-            <span style="white-space: nowrap; color: navy; font-weight: bold"
-              >(Google Cloud Platform - Linux)</span
-            >
-          </li>
-          <li>
-            CSI 4350: Programming Languages
-            <span style="white-space: nowrap; color: navy; font-weight: bold"
-              >(Dr. Racket - dialect of Scheme)</span
-            >
-          </li>
-          <!-- WIP Classes are classes that I'm currently in (Winter 2023) -->
-          <li class="WIP">
-            CSI 4480: Information Security Practice - Winter 2023
-          </li>
-          <li>CSI 4500: Fundamentals of Operating Systems</li>
-          <li class="WIP">
-            CSI 4660: Advanced Systems Administration - Winter 2023
-          </li>
-          <li class="WIP">CSI 4999: Senior Capstone Project - Winter 2023</li>
-        </ul>
+              <span style="white-space: nowrap; color: navy; font-weight: bold"
+                >(C#)</span
+              >
+            </li>
+            <li>
+              CSI 1420: Introduction to C Programming & Unix
+              <span style="white-space: nowrap; color: navy; font-weight: bold"
+                >(C)</span
+              >
+            </li>
+            <li>PHY 1510: Introductory Physics 1</li>
+            <li>MTH 1554 and 1555: Calculus 1 and 2; AP Credit</li>
+            <li>PHY 1620: Fundamentals of Physics 2</li>
+            <li>STA 2226: Applied Probability and Statistics</li>
+            <li>CSI 2300: Object-Oriented Computing</li>
+            <li>
+              CSI 2310: Data Structures
+              <span style="white-space: nowrap; color: navy; font-weight: bold"
+                >(Java)</span
+              >
+            </li>
+            <li>CSI 2340: Ruby for Web Developers</li>
+            <li>
+              EGR 2400: Introduction to Electrical and Computer Engineering
+            </li>
+            <li>
+              CSI 2470: Introduction to Computer Networks
+              <span style="white-space: nowrap; color: navy; font-weight: bold"
+                >(Java)</span
+              >
+            </li>
+            <li>APM 2663: Discrete Mathematics</li>
+            <li>MTH 2775: Linear Algebra</li>
+            <li>
+              <a href="./Projects/keyboardWarriors.html"
+                >CSI 2999: Sophomore Project</a
+              >
+              <span style="white-space: nowrap; color: navy; font-weight: bold"
+                >(Java)</span
+              >
+            </li>
+            <li>
+              <a href="./Projects/csi3150Website.html"
+                >CSI 3150: Web and Mobile Systems</a
+              >
+              <span style="white-space: nowrap; color: navy; font-weight: bold"
+                >(HTML, CSS, JS, ReactJS)</span
+              >
+            </li>
+            <li>CSI 3370: Software Engineering and Practice</li>
+            <li>CSI 3430: Theory of Computation</li>
+            <li>
+              <a href="./Projects/microSql.html"
+                >CSI 3450: Database Design and Implementation</a
+              >
+              <span style="white-space: nowrap; color: navy; font-weight: bold"
+                >(Microsoft SQL Server)</span
+              >
+            </li>
+            <li>
+              CSI 3610: Design and Analysis of Algorithms
+              <span style="white-space: nowrap; color: navy; font-weight: bold"
+                >(Python)</span
+              >
+            </li>
+            <li>
+              CSI 3640: Computer Organization
+              <span style="white-space: nowrap; color: navy; font-weight: bold"
+                >(Assembly)</span
+              >
+            </li>
+            <li>
+              <a href="./Projects/sysAdminProject.html"
+                >CSI 3660: Systems Administration</a
+              >
+              <span style="white-space: nowrap; color: navy; font-weight: bold"
+                >(Google Cloud Platform - Linux)</span
+              >
+            </li>
+            <li>
+              CSI 4350: Programming Languages
+              <span style="white-space: nowrap; color: navy; font-weight: bold"
+                >(Dr. Racket - dialect of Scheme)</span
+              >
+            </li>
+            <!-- WIP Classes are classes that I'm currently in (Winter 2023) -->
+            <li class="WIP">
+              CSI 4480: Information Security Practice - Winter 2023
+            </li>
+            <li>CSI 4500: Fundamentals of Operating Systems</li>
+            <li class="WIP">
+              CSI 4660: Advanced Systems Administration - Winter 2023
+            </li>
+            <li class="WIP">CSI 4999: Senior Capstone Project - Winter 2023</li>
+          </ul>
+          <!-- End of class list div -->
+        </div>
+        <!-- End of courses div -->
       </div>
-      <!-- End of class list div -->
+      <!-- End of container div -->
     </div>
-    <!-- End of container div -->
   </body>
 </html>

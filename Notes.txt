@@ -4,32 +4,8 @@ generally fixing the default styling
 Check my suit, make sure everything fits for job fairs/interviews
 www.oakland.edu/registrar/apply-for-graduation/undergraduate
 
-So, when website is in halfscreen, everything is still fucked up
-For this, need to make the project images WAY smaller, will help a ton
-Need to move AboutMe pic and everything over too
-
 Width of 1400 is where problems start, learn more runs into text
 and about me gets fucked up
-
-1200 width seems to be half-screen for me
-Learn More buttons need to change - should be under the text, not to the right
-Also most project texts are too low
-
-For matlab skill text, change margins I think? maybe that's why text is spilling over
-For each Project page, test out margin-left and right auto?
-Only for really small screens
-
-Footer for project pages is smushed; need to adjust the padding between each
-hmm I did manual margins. Maybe I can get away with .footerContainer { margin: auto }
-
- style="margin-top: 10px; margin-left: 25px; margin-right: 50px" first
- style="margin-top: 10px; margin-right: 80px" 2nd
- style="margin-right: 60px; margin-top: 3px"
- style="margin-top: 3px"
- style="float: right; margin-top: 10px; margin-right: 50px"
- style="float: right; margin-top: 10px; margin-right: 40px"
-
-Now About Me and Resume are on top of each other somehow. Maybe due to margin-top and bottom?
 
 For courses page: need to move image to the left and make it smaller, but that's proving VERY hard
 Otherwise, everything is gucci enough

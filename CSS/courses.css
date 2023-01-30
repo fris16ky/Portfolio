@@ -53,16 +53,16 @@
   float: left;
 }
 
-.img-with-text a img {
-  display: block;
-  margin: 0 auto;
-  float: left;
-}
-
 #GH_image {
   width: 700;
   height: 400;
   margin-bottom: 10px;
+}
+
+.github_Text {
+  margin-left: 164px;
+  color: darkblue;
+  font-weight: bold;
 }
 
 .coursesContainer ul {
@@ -80,7 +80,49 @@
 
 @media screen and (max-width: 1608px) {
   img {
-    max-width: 400px;
-    max-height: 300px;
+    max-width: 40%;
+    height: auto;
+    margin: auto;
   }
+  .img-with-text {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 100px;
+    margin-right: 200px;
+    margin-bottom: 15px;
+  }
+  .github_Text {
+    margin: auto;
+    font-size: 10pt;
+    white-space: initial;
+    display: block;
+  }
+  .coursesContainer ul {
+    margin: 0;
+  }
+  /* Resetting everything. Maybe put GitHub at the top, with the text below? */
+  .courses {
+    margin: 0;
+    text-align: center;
+  }
+  .courses ul {
+    text-align: left;
+    margin-left: 130px;
+    margin-bottom: 25px;
+  }
+  /* .coursesContainer ul {
+    margin-left: 400px;
+  }
+  .coursesContainer h1 {
+    position: relative;
+    right: 300px;
+  }
+  #courses_Text {
+    position: relative;
+    right: 300px;
+  } */
+  /* Scrap all of this. Try to make the Major-Related Courses
+  it's own vertical block? */
 }
