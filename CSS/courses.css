@@ -93,6 +93,7 @@ to not take up as much room */
     margin-right: 400px;
     margin-bottom: 15px;
   }
+  /* Margin-right and bottom push the Courses div beneath it (newline) */
   img {
     max-width: 40%;
     height: auto;
@@ -104,6 +105,7 @@ to not take up as much room */
     white-space: initial;
     display: block;
   }
+  /* Resetting margins */
   .coursesContainer ul {
     margin: 0;
   }
