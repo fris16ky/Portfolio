@@ -461,6 +461,16 @@ around the middle of each image */
   .info {
     margin-top: 0px;
   }
+  .AboutMeContainer {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .pic_with_links {
+    margin-left: 20px;
+  }
+  .text {
+    margin-right: 75px;
+  }
 }
 
 /* Styling for SMALL laptops or split-screen tabs */
