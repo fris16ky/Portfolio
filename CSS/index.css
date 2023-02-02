@@ -349,6 +349,7 @@ around the middle of each image */
   color: black;
   font-size: 13pt;
   width: 100%;
+  margin-left: 0px;
 }
 
 .SkillsContainer p {
@@ -542,9 +543,6 @@ around the middle of each image */
 
 /* Attempting Styling for Mobile Phones */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  * {
-    /* width: 100%; */
-  }
   .body {
     background-size: 100% 100%;
   }
