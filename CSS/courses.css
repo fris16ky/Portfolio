@@ -65,6 +65,10 @@
   font-weight: bold;
 }
 
+.classList {
+  font-size: 15pt;
+}
+
 .coursesContainer ul {
   margin-left: 720px;
 }
