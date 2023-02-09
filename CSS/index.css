@@ -57,6 +57,18 @@ Without this, the Learn More buttons were displaying over it and blocking some o
   background-color: darkorchid;
 }
 
+.mobileDisclaimer {
+  margin: 0;
+  margin-top: 100px;
+  margin-bottom: 300px;
+  text-align: center;
+  height: 100px;
+  color: navy;
+  font-weight: bold;
+  font-size: 20pt;
+  display: none;
+}
+
 /* About Me styling */
 
 /* Blending the colors of the current and next container/sections, hoping this looks more seamless and smoother */
@@ -343,8 +355,6 @@ around the middle of each image */
 
 .SkillsContainer {
   background-color: rgb(204, 204, 255);
-  padding-left: 10px;
-  padding-right: 10px;
   padding-bottom: 10px;
   color: black;
   font-size: 13pt;
@@ -542,9 +552,12 @@ around the middle of each image */
 }
 
 /* Attempting Styling for Mobile Phones */
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+@media screen and (max-width: 700px) {
   .body {
     background-size: 100% 100%;
+  }
+  .mobileDisclaimer {
+    display: block;
   }
   .AboutMeContainer {
     margin-top: 0px;
