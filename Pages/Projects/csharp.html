@@ -39,18 +39,15 @@
     <!-- Beginning of the Projects -->
     <div class="ProjectsContainer">
       <h1>C# Projects Page</h1>
-      <!-- Put it through grammarly and w3validator again -->
-      <!-- Also go through and comment code/descriptions -->
-      <!-- Think about changing colors? I like the basic/white+gold+navy, but I fear I might've
-           used it for too many pages; the viewers may want that to be normalized/consistent 
-           through all of the pages -->
       <br />
       <!-- Page Description -->
       <h2>Description</h2>
       <p>
-        This project page lists labs that I worked on in my EGR 1400 Computer
-        Problem Solving course. All of these projects were made myself using
-        Visual Studio 2022 and the .NET Windows Forms App Template.
+        This is the in depth page for all of my C# projects! These all came from
+        my EGR 1400 - Computer Problem Solving course, where the first nine are
+        labs that I completed and the last is part of a Problem Solving
+        assignment. All of these projects were made myself using Visual Studio
+        2022 and the .NET Windows Forms App Template.
       </p>
       <br /><br />
 
@@ -68,10 +65,12 @@
         ></iframe>
         <br />
         <h3>Project Description</h3>
+        <!-- These project descriptions will be short and straight-to-the-point descriptions in case the viewer
+            does not want to watch the Demo video above -->
         <p>
-          This was our first lab from EGR 1400, where we created a simple
-          picture and button. Upon clicking, the button shows rough directions
-          for visiting Oakland University's Engineering Center.
+          This was our introductory lab where we created a simple picture and
+          button. When clicked, the button shows rough directions (speicfic to
+          where I lived) for visiting Oakland University's Engineering Center.
         </p>
       </div>
       <br />
@@ -92,17 +91,17 @@
         <br />
         <h3>Project Description</h3>
         <p>
-          In this project, we created two Group Boxes, each with 5 labels and 5
-          text boxes. We then created several buttons with different
-          functionalities; one to fill the 10 text boxes with random integers
-          between 50-100 and 30-100, one to calculate the mean and standard
-          deviation of those numbers, one to clear all of the test scores, and
-          one to exit out of the app.
+          This project has four buttons with different functionalities; one to
+          fill the ten text boxes with random integer test scores between 50 and
+          100 and 30 and 100, one to calculate the mean and standard deviation
+          of those scores, one to clear all of the data, and one to exit the
+          application.
         </p>
       </div>
       <br />
       <hr />
 
+      <!-- Covert Bailey's Fat% Calculator -->
       <div class="trd_prj">
         <h2>Covert Bailey's Tape-Measure Fat Formula</h2>
         <iframe
@@ -122,14 +121,12 @@
             href="file:///C:/Users/hloga/AppData/Local/Temp/Temp1_LAB3%20(1).zip/LAB3/Bodyfat.pdf"
             >Bodyfat Calculator</a
           >
-          that was provided to us. There are four different calculations, based
-          on the gender of the participant and whether they are above or below
-          30 years old. The UI provides radio buttons for both gender and age,
-          which will change the display criteria depending on which is selected.
-          For example, if 'Male' is selected, the user must input their waist,
-          hips, forearm, and wrist measurements. Conversely, if 'Female' is
-          selected, the user must input their hips, thigh, calf, and wrist
-          measurements.
+          that was given to us. There are four different calculation criteria,
+          based on the gender of the participant and whether they are above or
+          below 30 years old. For example, if 'Male' is selected, the user must
+          input their waist, hips, forearm, and wrist measurements. Conversely,
+          if 'Female' is selected, the user must input their hips, thigh, calf,
+          and wrist measurements.
         </p>
         <!-- Class to keep track of when I include multiple paragraph tags for a Project Description
         - wanting to include a few pixels of separation between them for clarity's purpose -->
@@ -143,6 +140,7 @@
       <br />
       <hr />
 
+      <!-- Craps App -->
       <div class="frt_prj">
         <h2>Craps Card Game</h2>
         <iframe
@@ -162,23 +160,19 @@
           were given the basic rules, along with a flowchart and a background
           image for our GUI.
         </p>
-        <!-- Talk about this in the demo: This app utilizes form-level variables to transition between two
-          states; whether it's the first roll or if the player is rolling again.
-           -->
         <p class="multi">
           The game keeps track of the user's total score, along with the current
           Point, which is displayed using pucks at the top. Each time the die
           are rolled, two random numbers are generated, along with their
-          corresponding dice images. If the roll is not a hit, the Point is
-          calculated and maintained, and the game only ends when the user exits
-          out.
+          corresponding dice images. Depending on the roll and situation
+          (initial roll or second and onwards), the user's score and Point will
+          be updated.
         </p>
       </div>
       <br />
       <hr />
 
-      <!-- Put space between each paragraph tags (if multiple), + space btwn h3 (Project Description) and p tags -->
-      <!-- Figure out coloring too -->
+      <!-- (Engineering) Circuit Stats Calculator -->
       <div class="fth_prj">
         <h2>Circuit Analyzer</h2>
         <iframe
@@ -192,35 +186,26 @@
         ></iframe>
         <br />
         <h3>Project Description</h3>
-        <!-- For demo: The user should provide
-          values for each resistor, in Ohms, and the Source Voltage, which is
-          controlled by the track bar. By default, the resistor values are
-          initialized to 100, 150, and 150 Ohms, respectively, with the Source
-          Voltage starting at 4 Volts. -->
         <p>
-          This application has multiple faces, with the base including a track
-          bar, three resistors, source voltage, and a Calculate Button. Once
-          calculate is clicked, the circuit will now display the voltage running
-          through each resistor, along with the overall current in the top left.
+          This application allows the user to work with either a two or three
+          resistor circuit. The user can choose whether they want to have a
+          track bar or not, which is used to adjust the Source Voltage. If the
+          user clicks to remove the track bar, the Source Voltage is now what's
+          being calculated, and an input for power appears.
         </p>
-        <p class="multi">
-          If the track bar is still on screen, the user can click a check box to
-          remove the middle resistor from the circuit. The calculations are
-          roughly the same; the user can input values for source voltage,
-          resistor 1, and resistor 2, with outputs of current, voltage 1, and
-          voltage 2 when "Calculate" is clicked.
-        </p>
+        <!-- The ID is for the Skills area of the home page - with the top navigation bar, I need the 
+            area it pushes the user to to be a little higher so that it's all on screen -->
         <p class="multi" id="Parabola">
-          If the user selects the 'Remove the Track Bar' check box, there is now
-          a new current calculation for the Amps passing through R2. The user
-          now must provide a Power value, which has a default value of 1.5
-          Watts. Once 'Calculate' is pressed, the Source Voltage, both currents,
-          and each individual voltage value will be calculated and displayed.
+          When 'Calculate' is clicked, all blank variables will have their
+          correct values displayed. There are variables for Source Voltage (with
+          no Track Bar), overall current, current through R2 (with no Track
+          Bar), and voltage for either two or three resistors.
         </p>
       </div>
       <br />
       <hr />
 
+      <!-- Parabola Plotter -->
       <div class="six_prj">
         <h2>2nd Degree Parabola Plotter</h2>
         <iframe
@@ -235,17 +220,18 @@
         <br />
         <h3>Project Description</h3>
         <p id="Anagram">
-          This application allows the user to graph a 2nd-degree parabola based
-          on the given parameters. The user must input values for a, b, and c in
-          'y = ax^2 + bx + c', along with values for how much of the graph you'd
-          like to see: xmin, xmax, ymin, ymax, and how many points you want
-          plotted. Once the user clicks on the 'Graph' tab, the parabola is
-          automatically plotted using Microsoft Chart Control.
+          This application allows the user to graph a 2nd-degree parabola. There
+          are input values for a, b, and c in 'y = ax^2 + bx + c', along with
+          how much of the graph you'd like to see: xmin, xmax, ymin, ymax, and
+          how many points you want plotted. Once the user clicks on the 'Graph'
+          tab, the parabola is automatically plotted using Microsoft Chart
+          Control.
         </p>
       </div>
       <br />
       <hr />
 
+      <!-- Anagram Tester for two (given) Text Files -->
       <div class="svn_prj">
         <h2>Anagram Tester</h2>
         <iframe
@@ -262,19 +248,20 @@
         <p>
           This project involved us importing a Histo.dll file, which was made in
           Visual Basic. This Histo library contains a method, CreateHistogram,
-          which creates a histogram of each alphabetical character in a word. We
-          were also given two txt files, one for potential anagrams, and one
-          with the confirmed anagrams.
+          which creates a histogram, in the form of an array, of each
+          alphabetical character in a word. We were also given two txt files,
+          one for potential anagrams, and one with the confirmed anagrams.
         </p>
         <p class="multi">
           The design is simplistic, with a ListBox and a button. When the button
-          is pressed all of the found anagrams, along with what word/phrase they
-          came from, are displayed.
+          is pressed, all of the found anagrams, along with what word/phrase
+          they came from, are displayed.
         </p>
       </div>
       <br />
       <hr />
 
+      <!-- Hepatitis Hospital Patients Information Grabber -->
       <div class="oct_prj">
         <h2>Hospital Database Parser</h2>
         <iframe
@@ -290,10 +277,10 @@
         <h3>Project Description</h3>
         <p>
           In this application, we were given a txt and xml file containing
-          information about blood tests of Hepatitis patients, which we had to
-          parse and keep track of their information. We also added a Database
-          Source to the app, which held hospital medical records, specifically
-          whether the patient lived or died.
+          information about blood tests of Hepatitis patients, which we parsed
+          and kept track of their information. We also added a Database Source
+          to the app, a Microsoft Access file that held hospital medical
+          records, specifically whether the patient lived or died.
         </p>
         <p class="multi">
           The UI consists only of a single "Analyze" button. When pressed, the
@@ -306,6 +293,7 @@
       <br />
       <hr />
 
+      <!-- Arduino Distance Sensor plotted using Matlab -->
       <div class="nine_prj" id="Arduino">
         <h2>Distance Sensor with Arduino</h2>
         <iframe
@@ -320,15 +308,14 @@
         <br />
         <h3>Project Description</h3>
         <p>
-          For this lab, I had to buy an Arduino kit, along with an infrared
+          For this lab, I had to buy an Arduino kit along with an infrared
           distance sensor. I wired the distance sensor to the Arduino chip,
           where the data will be sent through the Serial Port.
         </p>
         <p class="multi">
           I then wrote a MATLAB script to receive the data instead of the Server
           Monitor. With the distance data, I calculated the velocity and
-          acceleration of the object as it moved, and plotted it on subplots
-          with the distance.
+          acceleration and plotted them all on subplots.
         </p>
         <p class="multi">
           Finally, I derived a first order fit of the distance data to depict
@@ -347,6 +334,7 @@
       <br />
       <div class="visual_basic">
         <h2>Microsoft Excel Matrix Script</h2>
+        <!-- Demo -->
         <iframe
           style="margin-top: 5px; margin-bottom: 5px; border: 0"
           width="560"
@@ -367,8 +355,12 @@
         </p>
         <p class="multi">
           The UI is very basic, with a large button that, when pressed, will
-          start the process. The created Microsoft Excel file will also be saved
-          in a specific folder within the user's system.
+          start the process. Within the Excel file, it writes down the two
+          matrices we manually entered, the values of them multiplied together,
+          and then the inverse of that result. This will end up solving for the
+          coefficients for parabolic least squares regression (of degree 2). The
+          generated Microsoft Excel file will also be saved in a specific folder
+          within the user's system.
         </p>
       </div>
       <br /><br />
