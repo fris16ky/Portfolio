@@ -179,6 +179,7 @@ the href (deadzone) */
 }
 
 .investo_project {
+  padding-top: 10px;
   display: flex;
   flex-direction: row;
 }
@@ -229,9 +230,17 @@ around the middle of each image */
 }
 
 .investo_desc {
-  position: relative;
-  top: 65px;
-  margin-bottom: 85px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10px;
+  flex-grow: 1;
 }
 
 /* These are the images for each of the 5 projects */
@@ -255,6 +264,11 @@ around the middle of each image */
 }
 
 #sys_preview {
+  margin-right: 8px;
+}
+
+#inv_preview {
+  margin-left: 100px;
   margin-right: 8px;
 }
 
@@ -360,9 +374,8 @@ around the middle of each image */
   border-width: 10px;
   font-size: 15px;
   color: yellow;
-  position: relative;
-  bottom: 0px;
-  left: 360px;
+  align-self: flex-start;
+  width: 20%;
 }
 
 /* Changing the colors when hovered to indicate the user can click the anchor tag */
@@ -371,7 +384,8 @@ around the middle of each image */
 .learnMoreKeyb:hover,
 .learnMoreSql:hover,
 .learnMoreSys:hover,
-.learnMoreCsharp:hover {
+.learnMoreCsharp:hover,
+.learnMoreInv:hover {
   border-color: blue;
   background-color: blue;
   color: white;

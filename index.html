@@ -221,29 +221,32 @@
               src="./Media/Images/investo_logo.png"
               title="Investo Logo"
               alt="Logo for Investo"
-              style="float: left; margin-left: 50px"
+              style="float: left; flex-grow: 1"
               id="inv_preview"
             />
-            <!-- not margining rn -->
+            <!-- Now the entire page has empty white space on the right -->
           </a>
-          <p class="investo_desc">
-            [WORK IN PROGRESS] This is the description for my CSI 4999 Senior
-            Capstone Project, where we created a mobile app called Investo.
-            <!-- add styling to this class later (margin-bottom and such). Maybe change names from # of projects to just the name of the project. Way 
+          <!-- Div class to overwrite the row for the description and button -->
+          <!-- THIS WORKS - apply this change to ALL of the other areas!!! -->
+          <div class="column">
+            <p class="investo_desc">
+              [WORK IN PROGRESS] This is the description for my CSI 4999 Senior
+              Capstone Project, where we created a mobile app called Investo.
+              <!-- add styling to this class later (margin-bottom and such). Maybe change names from # of projects to just the name of the project. Way 
             simpler and easier to follow. Less confusing for going back to, especially since I added in C# late -->
-            <!-- I think for this desc, for smaller screens it's just margin-left and right: auto -->
-          </p>
+              <!-- I think for this desc, for smaller screens it's just margin-left and right: auto -->
+            </p>
+            <!-- Learn More Button -->
+            <button
+              class="learnMoreInv"
+              onclick="window.location.href='./Pages/Projects/investo.html';"
+            >
+              Learn More
+            </button>
+          </div>
         </div>
-        <br /><br />
-        <!-- Learn More Button -->
-        <button
-          class="learnMoreInv"
-          onclick="window.location.href='./Pages/Projects/investo.html';"
-        >
-          Learn More
-        </button>
 
-        <!-- Second Column of 2 projects -->
+        <!-- Second Column of Projects -->
         <div class="col2">
           <!-- Keyboard Warriors (mobile app) Project -->
           <div class="third_project">
