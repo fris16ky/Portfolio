@@ -178,6 +178,11 @@ the href (deadzone) */
   flex-direction: row;
 }
 
+.investo_project {
+  display: flex;
+  flex-direction: row;
+}
+
 /* These adjustments are for the Project Descriptions - not the Learn More buttons 
 We are changing the positioning of the text to be relative, and moving it down to
 around the middle of each image */
@@ -221,6 +226,12 @@ around the middle of each image */
   top: 90px;
   margin-bottom: 70px;
   margin-right: 30px;
+}
+
+.investo_desc {
+  position: relative;
+  top: 65px;
+  margin-bottom: 85px;
 }
 
 /* These are the images for each of the 5 projects */
@@ -269,6 +280,10 @@ around the middle of each image */
 }
 
 #csharp_preview:hover {
+  filter: brightness(40%);
+}
+
+#inv_preview:hover {
   filter: brightness(40%);
 }
 
@@ -336,6 +351,17 @@ around the middle of each image */
   color: yellow;
   position: relative;
   bottom: 150px;
+  left: 360px;
+}
+
+.learnMoreInv {
+  border-color: violet;
+  background-color: violet;
+  border-width: 10px;
+  font-size: 15px;
+  color: yellow;
+  position: relative;
+  bottom: 0px;
   left: 360px;
 }
 
