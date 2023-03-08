@@ -200,19 +200,21 @@
               id="sys_preview"
             />
           </a>
-          <p class="sys_desc">
-            Linux-based project using the Google Cloud Platform to create a
-            multiplayer server for the game Garry's Mod.
-          </p>
+          <div class="column">
+            <p class="sys_desc">
+              Linux-based project using the Google Cloud Platform to create a
+              multiplayer server for the game Garry's Mod.
+            </p>
+            <!-- Learn More Button -->
+            <button
+              class="learnMoreSys"
+              onclick="window.location.href='./Pages/Projects/sysAdminProject.html';"
+            >
+              Learn More
+            </button>
+          </div>
         </div>
         <br /><br />
-        <!-- Learn More Button -->
-        <button
-          class="learnMoreSys"
-          onclick="window.location.href='./Pages/Projects/sysAdminProject.html';"
-        >
-          Learn More
-        </button>
 
         <!-- Investo (Senior Capstone) Project -->
         <div class="investo_project">
@@ -221,13 +223,20 @@
               src="./Media/Images/investo_logo.png"
               title="Investo Logo"
               alt="Logo for Investo"
-              style="float: left; flex-grow: 1"
+              style="float: left"
               id="inv_preview"
             />
             <!-- Now the entire page has empty white space on the right -->
+            <!-- Fix that and RENAME THE PROJECTS (No more fifth_ first_. Make them DESCRIPTIVE), add Investo link to Skills
+            descriptions of Java -->
           </a>
           <!-- Div class to overwrite the row for the description and button -->
           <!-- THIS WORKS - apply this change to ALL of the other areas!!! -->
+          <!-- Guideline for changing each: new div wrapper, move button up, margin-bot: 20px for desc, width to 20 or 25% for 
+          the .learnMore button. Not sure why 20 is fine for Investo, but 25 is needed for sysadmin. Will check that out. Maybe it's because
+          the column area is smaller due to the picture taking up more space. Thus the 20% for sys isn't equivalent to the 20% for investo -->
+          <!-- Also watch out for the margin-bot for descriptions. Again, for bigger images this will create bigger gaps since it's aligning
+          to the center of the image. I moved the sys_desc to 10px.  -->
           <div class="column">
             <p class="investo_desc">
               [WORK IN PROGRESS] This is the description for my CSI 4999 Senior

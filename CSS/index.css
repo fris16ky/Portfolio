@@ -168,6 +168,7 @@ the href (deadzone) */
   flex-direction: row;
 }
 
+/* sysadmin */
 .fifth_project {
   display: flex;
   flex-direction: row;
@@ -216,10 +217,7 @@ around the middle of each image */
 }
 
 .sys_desc {
-  position: relative;
-  top: 75px;
-  margin-bottom: 35px;
-  margin-right: 100px;
+  margin-bottom: 10px;
 }
 
 .csharp_desc {
@@ -230,9 +228,7 @@ around the middle of each image */
 }
 
 .investo_desc {
-  margin-right: 10px;
   margin-bottom: 20px;
-  display: flex;
 }
 
 .column {
@@ -352,9 +348,7 @@ around the middle of each image */
   border-width: 10px;
   font-size: 15px;
   color: yellow;
-  position: relative;
-  bottom: 135px;
-  left: 437px;
+  width: 27%;
 }
 
 .learnMoreCsharp {
@@ -374,7 +368,6 @@ around the middle of each image */
   border-width: 10px;
   font-size: 15px;
   color: yellow;
-  align-self: flex-start;
   width: 20%;
 }
 
