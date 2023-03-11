@@ -180,7 +180,8 @@ the href (deadzone) */
 }
 
 .investo_project {
-  padding-top: 10px;
+  padding-top: 50px;
+  padding-bottom: 15px;
   display: flex;
   flex-direction: row;
 }
