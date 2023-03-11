@@ -139,19 +139,21 @@
               alt="Preview picture for my Calendar Website"
             />
           </a>
-          <!-- Short Description for the Website Project -->
-          <p class="web_desc">
-            Website Application that allows users to write and delete reminders
-            using a calendar system.
-          </p>
+          <div class="column">
+            <!-- Short Description for the Website Project -->
+            <p class="web_desc">
+              Website Application that allows users to write and delete
+              reminders using a calendar system.
+            </p>
+            <button
+              class="learnMoreWeb"
+              onclick="window.location.href='./Pages/Projects/csi3150Website.html';"
+            >
+              Learn More
+            </button>
+          </div>
         </div>
         <!-- Learn More button that takes the user to each project's respective and dedicated page -->
-        <button
-          class="learnMoreWeb"
-          onclick="window.location.href='./Pages/Projects/csi3150Website.html';"
-        >
-          Learn More
-        </button>
 
         <br /><br /><br /><br />
         <!-- To-Do List Mobile App Project -->
@@ -170,21 +172,23 @@
               id="app_preview"
             />
           </a>
-          <p class="app_desc">
-            React-Native mobile application where users can set, mark, and
-            delete reminders.
-          </p>
+          <div class="column">
+            <p class="app_desc">
+              React-Native mobile application where users can set, mark, and
+              delete reminders.
+            </p>
+            <button
+              class="learnMoreTod"
+              onclick="window.location.href='./Pages/Projects/csi3150App.html';"
+            >
+              Learn More
+            </button>
+          </div>
         </div>
         <br /><br />
         <!-- The LearnMore button is not a part of the flexbox since it puts the items in a row; we want the button to be
         unaffected and under the paragraph instead of to the side of it. So, we're making the position relative and moving it
         back to its original spot -->
-        <button
-          class="learnMoreTod"
-          onclick="window.location.href='./Pages/Projects/csi3150App.html';"
-        >
-          Learn More
-        </button>
         <!-- 3 break lines, otherwise the Learn More button would be put in the second column -->
         <br /><br /><br />
 
@@ -232,9 +236,13 @@
           </a>
           <!-- Div class to overwrite the row for the description and button -->
           <!-- THIS WORKS - apply this change to ALL of the other areas!!! -->
+
           <!-- Guideline for changing each: new div wrapper, move button up, margin-bot: 20px for desc, width to 20 or 25% for 
           the .learnMore button. Not sure why 20 is fine for Investo, but 25 is needed for sysadmin. Will check that out. Maybe it's because
           the column area is smaller due to the picture taking up more space. Thus the 20% for sys isn't equivalent to the 20% for investo -->
+
+          <!-- Also, as the screen gets smaller, the width doesn't look as good, so maybe set the LearnMore width to auto after a certain threshold -->
+          <!-- Maybe change the margin-left and rights for each description. It seems that the flexboxes adjusted that as well -->
           <!-- Also watch out for the margin-bot for descriptions. Again, for bigger images this will create bigger gaps since it's aligning
           to the center of the image. I moved the sys_desc to 10px.  -->
           <div class="column">
@@ -268,18 +276,20 @@
                 id="keyb_preview"
               />
             </a>
-            <p class="keyb_desc">
-              A Java-based Android Studio Project designed to improve player's
-              ability to type on a mobile phone.
-            </p>
+            <div class="column">
+              <p class="keyb_desc">
+                A Java-based Android Studio Project designed to improve player's
+                ability to type on a mobile phone.
+              </p>
+              <button
+                class="learnMoreKeyb"
+                onclick="window.location.href='./Pages/Projects/keyboardWarriors.html';"
+              >
+                Learn More
+              </button>
+            </div>
           </div>
           <br /><br />
-          <button
-            class="learnMoreKeyb"
-            onclick="window.location.href='./Pages/Projects/keyboardWarriors.html';"
-          >
-            Learn More
-          </button>
           <br /><br /><br />
 
           <!-- Database/SQL Project -->
@@ -295,17 +305,19 @@
                 id="sql_preview"
               />
             </a>
-            <p class="sql_desc">
-              School-themed database project using Microsoft SQL Server.
-            </p>
+            <div class="column">
+              <p class="sql_desc">
+                School-themed database project using Microsoft SQL Server.
+              </p>
+              <button
+                class="learnMoreSql"
+                onclick="window.location.href='./Pages/Projects/microSql.html';"
+              >
+                Learn More
+              </button>
+            </div>
           </div>
           <br /><br />
-          <button
-            class="learnMoreSql"
-            onclick="window.location.href='./Pages/Projects/microSql.html';"
-          >
-            Learn More
-          </button>
 
           <!-- Csharp Project Conglomerate -->
           <div class="sixth_project">
@@ -321,18 +333,21 @@
                 id="csharp_preview"
               />
             </a>
-            <p class="csharp_desc">
-              A quick run-through of my 10 C# projects created using the .NET
-              Windows Forms App.
-            </p>
+            <div class="column">
+              <p class="csharp_desc">
+                A quick run-through of my 10 C# projects created using the .NET
+                Windows Forms App.
+              </p>
+              <button
+                class="learnMoreCsharp"
+                onclick="window.location.href='./Pages/Projects/csharp.html';"
+              >
+                Learn More
+              </button>
+            </div>
           </div>
           <br /><br />
-          <button
-            class="learnMoreCsharp"
-            onclick="window.location.href='./Pages/Projects/csharp.html';"
-          >
-            Learn More
-          </button>
+
           <br /><br />
           <!-- End of column2 div -->
         </div>
