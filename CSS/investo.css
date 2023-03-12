@@ -1,0 +1,58 @@
+* {
+  font-family: "Times New Roman", Times, serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Getting rid of side-scroll bar */
+body {
+  overflow-x: hidden;
+}
+
+/* Navigation style (heading) */
+.navi {
+  margin-bottom: 30px;
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  z-index: 1;
+}
+/* Z-index pushes the navbar forward, meaning nothing can be displayed over it. 
+Without this, the Learn More buttons were displaying over it and blocking some of the content */
+
+.navi ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: navy;
+}
+
+.navi li {
+  float: right;
+}
+
+.navi li a {
+  display: block;
+  background-color: navy;
+  color: white;
+  padding: 25px 20px;
+  text-decoration: none;
+}
+
+.navi li a:hover {
+  background-color: crimson;
+  transition: 0.3s ease;
+}
+
+.navi .name {
+  float: left;
+}
+
+.navi .name a {
+  color: gold;
+}
+
+.navi .name a:hover {
+  background-color: darkorchid;
+}
