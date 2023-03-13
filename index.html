@@ -156,7 +156,7 @@
 
         <br /><br /><br /><br />
         <!-- To-Do List Mobile App Project -->
-        <div class="second_project">
+        <div class="todo_project">
           <!-- These divs are to contain each project, mainly to make them flex boxes. Without the display being flex,
           I had issues where the text area extended through the image (not visually), making a dead spot in the anchor tagged
           image where you couldn't click on the image to view that project. Flex box fixes that, whilst also slightly complicating -->
@@ -192,7 +192,7 @@
         <br /><br /><br />
 
         <!-- Garry's Mod Game Server Project -->
-        <div class="fifth_project">
+        <div class="gmod_project">
           <a href="./Pages/Projects/sysAdminProject.html">
             <img
               src="./Media/Images/garrysmod_preview.jpg"
@@ -229,12 +229,10 @@
               style="float: left"
               id="inv_preview"
             />
-            <!-- Now the entire page has empty white space on the right -->
             <!-- Fix that and RENAME THE PROJECTS (No more fifth_ first_. Make them DESCRIPTIVE), add Investo link to Skills
             descriptions of Java -->
+            <!-- Also, don't forget to check and update the responsive designs at the bottom of index.css -->
           </a>
-          <!-- Div class to overwrite the row for the description and button -->
-          <!-- THIS WORKS - apply this change to ALL of the other areas!!! -->
 
           <!-- Guideline for changing each: new div wrapper, move button up, margin-bot: 20px for desc, width to 20 or 25% for 
           the .learnMore button. Not sure why 20 is fine for Investo, but 25 is needed for sysadmin. Will check that out. Maybe it's because
@@ -244,6 +242,8 @@
           <!-- Maybe change the margin-left and rights for each description. It seems that the flexboxes adjusted that as well -->
           <!-- Also watch out for the margin-bot for descriptions. Again, for bigger images this will create bigger gaps since it's aligning
           to the center of the image. I moved the sys_desc to 10px.  -->
+
+          <!-- Div class to put the description and LearnMore button into a column flex-box -->
           <div class="column">
             <p class="investo_desc">
               [WORK IN PROGRESS] This is the description for my CSI 4999 Senior
@@ -265,7 +265,7 @@
         <!-- Second Column of Projects -->
         <div class="col2">
           <!-- Keyboard Warriors (mobile app) Project -->
-          <div class="third_project">
+          <div class="keyb_project">
             <a href="./Pages/Projects/keyboardWarriors.html">
               <img
                 src="./Media/Images/keyboardWarriorsLogo.png"
@@ -292,7 +292,7 @@
           <br /><br /><br />
 
           <!-- Database/SQL Project -->
-          <div class="fourth_project">
+          <div class="sql_project">
             <a href="./Pages/Projects/microSql.html">
               <img
                 src="./Media/Images/Micro_Sql_Logo.jpg"
@@ -319,7 +319,7 @@
           <br /><br />
 
           <!-- Csharp Project Conglomerate -->
-          <div class="sixth_project">
+          <div class="csharp_project">
             <!-- The numbering is out of order since this project was added in comparatively late -->
             <a href="./Pages/Projects/csharp.html">
               <img

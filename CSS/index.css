@@ -152,29 +152,29 @@ the href (deadzone) */
   flex-direction: row;
 }
 
-.second_project {
+.todo_project {
   display: flex;
   flex-direction: row;
   /* I think the direction is row by default, but it's still beneficial to remind myself that it is a row. */
 }
 
-.third_project {
+.keyb_project {
   display: flex;
   flex-direction: row;
 }
 
-.fourth_project {
+.sql_project {
   display: flex;
   flex-direction: row;
 }
 
 /* sysadmin */
-.fifth_project {
+.gmod_project {
   display: flex;
   flex-direction: row;
 }
 
-.sixth_project {
+.csharp_project {
   display: flex;
   flex-direction: row;
 }
@@ -505,26 +505,26 @@ around the middle of each image */
     float: left;
   }
   .first_project,
-  .third_project,
-  .fifth_project,
-  .sixth_project {
+  .keyb_project,
+  .gmod_project,
+  .csharp_project {
     margin-left: auto;
     margin-right: auto;
   }
   .first_project img,
-  .second_project img,
-  .third_project img,
-  .fourth_project img,
-  .fifth_project img {
+  .todo_project img,
+  .keyb_project img,
+  .sql_project img,
+  .gmod_project img {
     width: 200px;
     height: 200px;
   }
-  .sixth_project img {
+  .csharp_project img {
     margin-left: 0;
     width: 150px;
     height: 150px;
   }
-  .fourth_project {
+  .sql_project {
     margin-top: -50px;
   }
   .web_desc,
