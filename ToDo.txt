@@ -1,0 +1,31 @@
+List of upcoming goals I want to meet for this Portfolio: 
+Finish the Investo page
+Start and Finish the Keylogger page
+Update/Add more skills - from classes and such. Things like C/Embedded Programming?
+Update the skills text. Make them more specific and add any new changes
+Update with my final GPA and everything. Should be done around 5/5?
+Start trying for Certifications and shit to spice up my resume/portfolio. Maybe ask GPT for suggestions and search for free alternatives. 
+
+In case I don't find a job soon: 
+Certifications
+Take Classes/Lessons in Algorithms (learn a lot more, be able to code them at will)
+Practice/Learn From LeetCode for general knowledge gainers
+Make Cover Letters for applications detailing what I can specifically bring to the company from their qualifications
+WORK ON MORE PROJECTS - Having a personal Python Project would be great. 
+
+
+I think I want to try to do a Python one for parsing a One Piece website to see how much I've spent watching it
+Seems like I'll have to use MyAnimeList. The movies have a duration, One Piece the series does as well. 
+https://myanimelist.net/animelist/Fris16ky
+Just have to click on each thing that says One Piece and take the values after it says "duration". Then if the title says "ep x" and x is > 1, times that 
+duration by whatever the value for it is. 
+Let's have it print the names of each movie we've watched too. Also how many eps of One Piece in general. Only have to worry about 1+ episodes since there
+isn't and won't be anything with more than 1 episode aside from the actual anime.
+
+So, for web scraping we give the URL and essentially inspect the page's XML/HTML file. So, for each individual movie/show, we can just search for information
+on that hyperlink? Big hopeage. When I'm writing this, log everything first. Like when I think it's functional, make it log the hyperlink for each show. Then
+make it log the duration THEN worry about adding em and multiplying n shit
+
+for this, the links we want are in <a href="/anime/21/One_Piece">
+example for movie (First Movie - One Piece Movie 01): <td class="data title clearfix"> <a href="/anime/459/One_Piece_Movie_01" .../>
+So, maybe see if it's possible to search for anchor tags with /anime/*/One_Piece*
