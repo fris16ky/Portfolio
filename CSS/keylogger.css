@@ -56,3 +56,7 @@ Without this, the Learn More buttons were displaying over it and blocking some o
 .navi .name a:hover {
   background-color: darkorchid;
 }
+
+.demo {
+  text-align: center;
+}
