@@ -98,7 +98,7 @@ Without this, the Learn More buttons were displaying over it and blocking some o
 }
 
 .collegeInfo {
-  font-size: 15px;
+  font-size: 18pt;
   font-weight: bold;
 }
 
@@ -109,20 +109,24 @@ Without this, the Learn More buttons were displaying over it and blocking some o
 .background {
   font-weight: 500;
   margin-top: 8px;
+  font-size: 14pt;
 }
 
 .bgnd2 {
   margin-top: 15px;
+  font-size: 14pt;
 }
 
 .interests {
   margin-top: 15px;
   margin-bottom: 15px;
+  font-size: 14pt;
 }
 
 .wrapup {
   padding: 0px;
   margin: 0px;
+  font-size: 14pt;
 }
 
 /* Projects Styling */
@@ -197,34 +201,42 @@ around the middle of each image */
 
 .web_desc {
   margin-bottom: 10px;
+  font-size: 14pt;
 }
 
 .app_desc {
   margin-bottom: 10px;
+  font-size: 14pt;
 }
 
 .keyb_desc {
   margin-bottom: 10px;
+  font-size: 14pt;
 }
 
 .sql_desc {
   margin-bottom: 10px;
+  font-size: 14pt;
 }
 
 .sys_desc {
   margin-bottom: 10px;
+  font-size: 14pt;
 }
 
 .csharp_desc {
   margin-bottom: 10px;
+  font-size: 14pt;
 }
 
 .keylogger_desc {
   margin-bottom: 10px;
+  font-size: 14pt;
 }
 
 .investo_desc {
   margin-bottom: 20px;
+  font-size: 14pt;
 }
 
 .column {
