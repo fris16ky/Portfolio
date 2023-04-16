@@ -179,6 +179,11 @@ the href (deadzone) */
   flex-direction: row;
 }
 
+.keylogger_project {
+  display: flex;
+  flex-direction: row;
+}
+
 .investo_project {
   padding-top: 50px;
   padding-bottom: 15px;
@@ -211,6 +216,10 @@ around the middle of each image */
 }
 
 .csharp_desc {
+  margin-bottom: 10px;
+}
+
+.keylogger_desc {
   margin-bottom: 10px;
 }
 
@@ -250,6 +259,10 @@ around the middle of each image */
   margin-right: 8px;
 }
 
+#keylogger_preview {
+  margin-right: 8px;
+}
+
 #inv_preview {
   margin-left: 100px;
   margin-right: 8px;
@@ -277,6 +290,10 @@ around the middle of each image */
 }
 
 #csharp_preview:hover {
+  filter: brightness(40%);
+}
+
+#keylogger_preview:hover {
   filter: brightness(40%);
 }
 
@@ -339,6 +356,15 @@ around the middle of each image */
   width: 22%;
 }
 
+.learnMoreKeylogger {
+  border-color: violet;
+  background-color: violet;
+  border-width: 10px;
+  font-size: 15px;
+  color: yellow;
+  width: 22%;
+}
+
 .learnMoreInv {
   border-color: violet;
   background-color: violet;
@@ -355,6 +381,7 @@ around the middle of each image */
 .learnMoreSql:hover,
 .learnMoreSys:hover,
 .learnMoreCsharp:hover,
+.learnMoreKeylogger:hover,
 .learnMoreInv:hover {
   border-color: blue;
   background-color: blue;
