@@ -195,6 +195,13 @@ the href (deadzone) */
   flex-direction: row;
 }
 
+.platformer_project {
+  padding-top: 50px;
+  padding-bottom: 15px;
+  display: flex;
+  flex-direction: row;
+}
+
 /* These adjustments are for the Project Descriptions - not the Learn More buttons 
 We are changing the positioning of the text to be relative, and moving it down to
 around the middle of each image */
@@ -239,6 +246,11 @@ around the middle of each image */
   font-size: 14pt;
 }
 
+.platformer_desc {
+  margin-bottom: 10px;
+  font-size: 14pt;
+}
+
 .column {
   display: flex;
   flex-direction: column;
@@ -280,6 +292,11 @@ around the middle of each image */
   margin-right: 8px;
 }
 
+#plat_preview {
+  margin-left: 70px;
+  margin-right: 15px;
+}
+
 /* Darkening the image when hovered to tell when the user can click on the href */
 #website_preview:hover {
   filter: brightness(40%);
@@ -310,6 +327,10 @@ around the middle of each image */
 }
 
 #inv_preview:hover {
+  filter: brightness(40%);
+}
+
+#plat_preview:hover {
   filter: brightness(40%);
 }
 
@@ -386,6 +407,15 @@ around the middle of each image */
   width: 20%;
 }
 
+.learnMorePlat {
+  border-color: violet;
+  background-color: violet;
+  border-width: 10px;
+  font-size: 15px;
+  color: yellow;
+  width: 20%;
+}
+
 /* Changing the colors when hovered to indicate the user can click the anchor tag */
 .learnMoreWeb:hover,
 .learnMoreTod:hover,
@@ -394,7 +424,8 @@ around the middle of each image */
 .learnMoreSys:hover,
 .learnMoreCsharp:hover,
 .learnMoreKeylogger:hover,
-.learnMoreInv:hover {
+.learnMoreInv:hover,
+.learnMorePlat:hover {
   border-color: blue;
   background-color: blue;
   color: white;

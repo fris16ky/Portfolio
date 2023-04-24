@@ -29,3 +29,9 @@ make it log the duration THEN worry about adding em and multiplying n shit
 for this, the links we want are in <a href="/anime/21/One_Piece">
 example for movie (First Movie - One Piece Movie 01): <td class="data title clearfix"> <a href="/anime/459/One_Piece_Movie_01" .../>
 So, maybe see if it's possible to search for anchor tags with /anime/*/One_Piece*
+
+Consider adding a 'Technology' portion to each project. It'd be nice to have everything out in front. i.e. back-end, front-end (language), IDE, any other tools. 
+This sounds like a 500/10 idea ngl
+Update skills with new info and projects done (new classes too)
+Need to update everything related to Responsive Design, I'm sure all of my new additions make it ugly
+Update the Unity pic too; want a base picture of the platformer rn than a Unity logo; will fix the hover brightness issue too
